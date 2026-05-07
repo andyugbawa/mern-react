@@ -1,3 +1,4 @@
+require("dotenv").config()
 const express = require("express")
 const mongoose = require("mongoose")
 const cors = require("cors")
@@ -16,7 +17,8 @@ app.use(cors({
 }))
 app.use(cookieParser())
 
-mongoose.connect("mongodb://localhost:27017/employee")
+// mongoose.connect("mongodb://localhost:27017/employee")
+mongoose.connect(process.env.MONGO_URI)
 
 
 
@@ -60,7 +62,13 @@ app.post("/login", async (req, res) => {
   }
 })
 
+const PORT = process.env.PORT || 3001
 
-app.listen(3001, () => {
-  console.log("Server running on port 3001")
+app.listen(PORT, () => {
+  console.log("Server running on port", PORT)
 })
+
+
+// app.listen(3001, () => {
+//   console.log("Server running on port 3001")
+// })
