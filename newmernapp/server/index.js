@@ -18,7 +18,11 @@ app.use(cors({
 app.use(cookieParser())
 
 // mongoose.connect("mongodb://localhost:27017/employee")
+// mongoose.connect(process.env.MONGO_URI)
+
 mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log("MongoDB Connected"))
+  .catch(err => console.log("MongoDB Error:", err))
 
 
 
