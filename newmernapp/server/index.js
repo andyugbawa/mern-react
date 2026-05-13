@@ -12,10 +12,20 @@ const app = express()
 
 app.use(express.json())
 
- app.use(cors({
-  origin: process.env.FRONTEND_URL,
+
+app.use(cors({
+  origin: [
+    "https://mern-react-beige.vercel.app", // your Vercel frontend
+    "http://localhost:5173"                // keep for local testing
+  ],
   credentials: true
-}))
+}));
+
+
+//  app.use(cors({
+//   origin: process.env.FRONTEND_URL,
+//   credentials: true
+// }))
 
 
 // app.use(cors({
