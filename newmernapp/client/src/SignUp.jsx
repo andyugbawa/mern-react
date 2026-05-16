@@ -22,8 +22,8 @@ function SignUp() {
 
   return (
     <form onSubmit={handleSubmit}>
+      
       <div className='d-flex justify-content-center align-items-center bg-primary vh-100'>
-        
         <div
           className='bg-white p-4 rounded shadow'
           style={{ width: "350px" }}
