@@ -60,7 +60,10 @@ function SignUp() {
           <button className='btn btn-success w-100'>
             Register
           </button>
+
+          <div>
           <button className='btn btn-success w-100'>Login</button>
+          </div>
 
         </div>
 
