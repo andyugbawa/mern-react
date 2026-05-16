@@ -45,6 +45,7 @@ function SignUp() {
               className='form-control'
               placeholder="Email"
               onChange={e => setEmail(e.target.value)}
+              autoComplete='off'
             />
           </div>
 
@@ -54,6 +55,7 @@ function SignUp() {
               className='form-control'
               placeholder="Password"
               onChange={e => setPassword(e.target.value)}
+              autoComplete='new-password'
             />
           </div>
 
