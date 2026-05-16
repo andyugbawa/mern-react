@@ -45,10 +45,10 @@ function Login() {
               onChange={e => setPassword(e.target.value)}
             />
           </div>
+      <button>Login</button>
 
 
         </div>
-      <button>Login</button>
 
       </div>
 
