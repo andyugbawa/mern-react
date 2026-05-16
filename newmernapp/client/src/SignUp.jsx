@@ -22,7 +22,7 @@ function SignUp() {
 
   return (
     <form onSubmit={handleSubmit}>
-      
+
       <div className='d-flex justify-content-center align-items-center bg-primary vh-100'>
         <div
           className='bg-white p-4 rounded shadow'
@@ -60,6 +60,7 @@ function SignUp() {
           <button className='btn btn-success w-100'>
             Register
           </button>
+          <button className='btn btn-success w-100'>Login</button>
 
         </div>
 
