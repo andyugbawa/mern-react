@@ -45,7 +45,7 @@ function Login() {
               onChange={e => setPassword(e.target.value)}
             />
           </div>
-      <button>Login</button>
+          <button className='btn btn-success w-100'>Login</button>
 
 
         </div>
