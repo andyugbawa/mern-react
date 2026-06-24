@@ -11,8 +11,9 @@ function Home() {
             {/* <img src="/action.jpeg" alt="Movie" /> */}
     </div>
        
-       <div className="container">
-
+       <div>
+        
+       </div>
       <div class="parent slide-left">
       <div class="content">
         <div class="box1">
@@ -43,7 +44,6 @@ function Home() {
         </div>
         </div>
       </div>
-       </div>
    
 
 
