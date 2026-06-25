@@ -24,7 +24,7 @@ h1{
     justify-content: center;
     gap: 10px;
     overflow: hidden;
-   animation: slideIn 1s ease forwards;
+   animation: slideIn 5s ease forwards;
 
     
     
@@ -67,7 +67,7 @@ h1{
     justify-content:center ;
     gap:10px;
     margin: 20px 0;
-     animation: slideIn 1s ease forwards;
+     animation: slideIn 5s ease forwards;
 
 }
 
@@ -98,7 +98,7 @@ h1{
     gap: 10px;
     overflow: hidden;
     /* width:90%; */
-   animation: slideIn 1s ease forwards;
+   animation: slideIn 5s ease forwards;
 
     
 }
