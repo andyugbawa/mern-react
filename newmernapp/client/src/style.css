@@ -10,7 +10,7 @@ h1{
     border-radius:20px;
     margin:40px 0;
     opacity:0;
-    animation: fadeIn 1s forwards;
+   animation: slideIn 5s ease forwards;
 
     /* animation-duration:1.2s; */
     /* animation-duration:5s; */
