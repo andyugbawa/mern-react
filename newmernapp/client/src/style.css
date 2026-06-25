@@ -2,18 +2,15 @@ h1{
     color:red
 }
 
-.container{
-    /* padding: 0 20px; */
-}
+
 .parent{
     border:2px solid black;
-    /* width:97%; */
     padding:30px 40px;
     min-height:100vh;
     border-radius:20px;
     margin:40px 0;
-    /* opacity:0; */
-    /* animation-duration:1.2s; */
+    opacity:0;
+    animation-duration:1.2s;
     animation-duration:5s;
     animation-fill-mode:forwards;
 }
@@ -25,9 +22,8 @@ h1{
     justify-content: center;
     gap: 10px;
     overflow: hidden;
-    /* width:90%; */
-    animation: typing 3s forwards;
-    /* border: 3px solid blue; */
+    animation: typing 5s forwards;
+    
     
 }
 
@@ -100,4 +96,10 @@ h1{
     /* width:90%; */
     animation: typing 3s forwards;
     
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
 }
