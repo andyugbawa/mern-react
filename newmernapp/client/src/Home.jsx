@@ -15,7 +15,7 @@ function Home() {
         
        </div>
       <div className="parent slide-left">
-        
+
       <div className="content">
         <div className="box1">
         </div>
@@ -26,7 +26,7 @@ function Home() {
         <div className="box4">
         </div>
         </div>
-{/*         
+         
         <div className="content1">
         <div class="box5">
         </div>
@@ -34,8 +34,8 @@ function Home() {
         </div>
         <div class="box7">
         </div>
-        </div> */}
-{/*         
+        </div> 
+        
       <div className="content2">
         <div class="box1">
         </div>
@@ -45,7 +45,7 @@ function Home() {
         </div>
         <div class="box4">
         </div>
-        </div> */}
+        </div> 
       </div>
    
 
