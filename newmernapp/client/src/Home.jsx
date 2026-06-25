@@ -15,6 +15,7 @@ function Home() {
         
        </div>
       <div className="parent slide-left">
+        
       <div className="content">
         <div className="box1">
         </div>

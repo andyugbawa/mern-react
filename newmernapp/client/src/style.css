@@ -27,6 +27,7 @@ h1{
     overflow: hidden;
     width:90%;
     animation: typing 3s forwards;
+    border: 3px solid blue;
     
 }
 
