@@ -22,7 +22,7 @@ function Home() {
 
       <div className="content">
         <div className="box1">
-        <img src="/action.jpeg" alt="Movie" />
+        <img className='img' src="/action.jpeg" alt="Movie" />
         </div>
 
 {/* 
