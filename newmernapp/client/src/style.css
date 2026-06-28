@@ -2,6 +2,10 @@ h1{
     color:red
 }
 
+  .text-content{
+    text-align: center;
+  }
+
 
  .flip-card{
     width:350px;

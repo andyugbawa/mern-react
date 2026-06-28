@@ -235,11 +235,12 @@ function Home() {
   </div>
 
         </div>
-
-
         </div>  
-
-
+        
+        <div className='text-content'>
+           <h2>CLICK EACH MOVIE CARD FOR INFO</h2>
+        </div>
+      
         </div>
       
 
