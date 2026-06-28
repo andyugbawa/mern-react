@@ -228,7 +228,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>City Hunter</h2>
+      <h2>MOANA 2</h2>
       <p>Action Movie</p>
     </div>
 
