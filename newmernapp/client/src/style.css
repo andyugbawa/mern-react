@@ -3,6 +3,51 @@ h1{
 }
 
 
+ .flip-card{
+    width:350px;
+    height:400px;
+    perspective:1000px;
+    cursor:pointer;
+}
+
+.flip-card-inner{
+    width:100%;
+    height:100%;
+    position:relative;
+    transition:transform .8s;
+    transform-style:preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner{
+    transform:rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius:20px;
+    backface-visibility:hidden;
+}
+
+.flip-card-front img{
+    width:100%;
+    height:100%;
+    border-radius:20px;
+}
+
+.flip-card-back{
+    background:#222;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    transform:rotateY(180deg);
+}
+
+
 .parent{
     border:2px solid black;
     padding:30px 40px;
