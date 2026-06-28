@@ -45,8 +45,6 @@ function Home() {
 
   </div>
 </div>
-        </div>
-
  
         <div className={`flip-card${flippedCards.card2 ? "fliiped" :""}`}
          onClick={()=>handleFlip("card2")}
@@ -61,9 +59,9 @@ function Home() {
       <p>Action Movie</p>
     </div>
 
-  </div>
-
+      </div>
         </div>
+
         <div className={`flip-card${flippedCards.card3 ? "fliiped" :""}`}
          onClick={()=>handleFlip("card3")}
         >
@@ -82,6 +80,7 @@ function Home() {
   </div>
 
         </div>
+
         <div className={`flip-card${flippedCards.card4 ? "fliiped" :""}`}
          onClick={()=>handleFlip("card4")}
         
@@ -102,8 +101,14 @@ function Home() {
 
         </div> 
 
+
+
+
+
+
         </div>
-         
+
+            
         <div className="content1">
         <div className={`flip-card${flippedCards.card5 ? "fliiped" :""}`}
          onClick={()=>handleFlip("card5")}
@@ -157,8 +162,9 @@ function Home() {
   </div>
 
         </div>
+        </div>
 
-      
+          
          
       <div className="content2">
         <div className={`flip-card${flippedCards.card8 ? "fliiped" :""}`}
@@ -233,8 +239,14 @@ function Home() {
 
         </div>  
 
+
+        </div>
+      
+
+      
+
         
-      </div>
+      
    
 
 
