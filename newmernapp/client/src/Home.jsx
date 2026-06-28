@@ -43,7 +43,7 @@ function Home() {
            <img className='img' src="/hounds of war.jpeg" alt="Movie" />
         </div>
         <div className="card6">
-           <img className='img' src="/mad max.jpeg" alt="Movie" />
+           <img className='img' src="/sonic.jpeg" alt="Movie" />
         </div>
         <div className="card7">
            <img className='img' src="/red one.jpeg" alt="Movie" />
