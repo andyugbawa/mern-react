@@ -21,42 +21,52 @@ function Home() {
       <div className="parent slide-left">
 
       <div className="content">
-        <div className="box1">
-        <img className='img' src="/action.jpeg" alt="Movie" />
+        <div className="card1">
+        <img className='img' src="/city hunter.jpeg" alt="Movie" />
         </div>
 
-{/* 
-        <div className="box2">
+ 
+        <div className="card2">
+             <img className='img' src="/dune part2.jpeg" alt="Movie" />
         </div>
-        <div className="box3">
+        <div className="card3">
+           <img className='img' src="/gladiator2.jpeg" alt="Movie" />
         </div>
-        <div className="box4">
-        </div> */}
+        <div className="card4">
+           <img className='img' src="/heart of a hunter.jpeg" alt="Movie" />
+        </div> 
 
         </div>
-{/*          
+         
         <div className="content1">
-        <div className="box5">
+        <div className="card5">
+           <img className='img' src="/hounds of war.jpeg" alt="Movie" />
         </div>
-        <div className="box6">
+        <div className="card6">
+           <img className='img' src="/mad max.jpeg" alt="Movie" />
         </div>
-        <div className="box7">
+        <div className="card7">
+           <img className='img' src="/red one.jpeg" alt="Movie" />
         </div>
 
-        </div>  */}
-{/*         
+        </div>  
+         
       <div className="content2">
-        <div className="box1">
+        <div className="card8">
+           <img className='img' src="/sonic.jpeg" alt="Movie" />
         </div>
-        <div className="box2">
+        <div className="card9">
+           <img className='img' src="/venom.jpeg" alt="Movie" />
         </div>
-        <div className="box3">
+        <div className="card10">
+           <img className='img' src="/wanted man.jpeg" alt="Movie" />
         </div>
-        <div className="box4">
+        <div className="card11">
+           <img className='img' src="/moana2.jpeg" alt="Movie" />
         </div>
 
 
-        </div>  */}
+        </div>  
 
         
       </div>
