@@ -27,6 +27,11 @@ function Home() {
        </div>
       <div className="parent slide-left">
 
+        
+        <div className='text-content'>
+           <h2>CLICK EACH MOVIE CARD FOR INFO</h2>
+        </div>
+
       <div className="content">
         <div className={`flip-card ${flippedCards.card1 ? "flipped" :""}`}
          onClick={()=>handleFlip("card1")}
@@ -237,9 +242,6 @@ function Home() {
         </div>
         </div>  
         
-        <div className='text-content'>
-           <h2>CLICK EACH MOVIE CARD FOR INFO</h2>
-        </div>
       
         </div>
       
