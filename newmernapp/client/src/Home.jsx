@@ -28,7 +28,7 @@ function Home() {
       <div className="parent slide-left">
 
       <div className="content">
-        <div className={`flip-card${flippedCards.card1 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card1 ? "fliped" :""}`}
          onClick={()=>handleFlip("card1")}
         >
           
@@ -46,7 +46,7 @@ function Home() {
   </div>
 </div>
  
-        <div className={`flip-card${flippedCards.card2 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card2 ? "fliped" :""}`}
          onClick={()=>handleFlip("card2")}
         >
       <div className="flip-card-inner">
@@ -62,7 +62,7 @@ function Home() {
       </div>
         </div>
 
-        <div className={`flip-card${flippedCards.card3 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card3 ? "fliped" :""}`}
          onClick={()=>handleFlip("card3")}
         >
         
@@ -81,7 +81,7 @@ function Home() {
 
         </div>
 
-        <div className={`flip-card${flippedCards.card4 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card4 ? "fliped" :""}`}
          onClick={()=>handleFlip("card4")}
         
         > 
@@ -110,7 +110,7 @@ function Home() {
 
             
         <div className="content1">
-        <div className={`flip-card${flippedCards.card5 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card5 ? "fliped" :""}`}
          onClick={()=>handleFlip("card5")}
         >
            <div className="flip-card-inner">
@@ -127,7 +127,7 @@ function Home() {
       </div>
 
         </div>
-        <div className={`flip-card${flippedCards.card6 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card6 ? "fliped" :""}`}
          onClick={()=>handleFlip("card6")}
         >
             <div className="flip-card-inner">
@@ -144,7 +144,7 @@ function Home() {
   </div>
 
         </div>
-        <div className={`flip-card${flippedCards.card7 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card7 ? "fliped" :""}`}
          onClick={()=>handleFlip("card7")}
         
         >
@@ -167,7 +167,7 @@ function Home() {
           
          
       <div className="content2">
-        <div className={`flip-card${flippedCards.card8 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card8 ? "fliped" :""}`}
          onClick={()=>handleFlip("card8")}
         >
  <div className="flip-card-inner">
@@ -184,7 +184,7 @@ function Home() {
   </div>
 
         </div>
-        <div className={`flip-card${flippedCards.card9 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card9 ? "fliped" :""}`}
          onClick={()=>handleFlip("card9")}
         >
            <div className="flip-card-inner">
@@ -201,7 +201,7 @@ function Home() {
   </div>
 
         </div>
-        <div className={`flip-card${flippedCards.card10 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card10 ? "fliped" :""}`}
          onClick={()=>handleFlip("card10")}
         >
             <div className="flip-card-inner">
@@ -218,7 +218,7 @@ function Home() {
   </div>
 
         </div>
-        <div className={`flip-card${flippedCards.card11 ? "fliiped" :""}`}
+        <div className={`flip-card${flippedCards.card11 ? "fliped" :""}`}
          onClick={()=>handleFlip("card11")}
         >
             <div className="flip-card-inner">
