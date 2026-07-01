@@ -184,7 +184,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>SPIDERMAN LONG WAY FROM HOME</h2>
+      <h2>SPIDERMAN BRAND NEW DAY</h2>
       <p>Action Movie</p>
     </div>
 
