@@ -42,11 +42,11 @@ function Home() {
         <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/city hunter.jpeg" alt="Movie" />
+      <img className="img" src="/alpha.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>City Hunter</h2>
+      <h2>ALPHA</h2>
       <p>Action Movie</p>
     </div>
 
@@ -58,11 +58,11 @@ function Home() {
         >
       <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img className="img" src="/dune part2.jpeg" alt="Movie" />
+      <img className="img" src="/booster.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>DUNE Part 2</h2>
+      <h2>I LOVE BOOSTER</h2>
       <p>Action Movie</p>
     </div>
 
@@ -76,11 +76,11 @@ function Home() {
          <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/gladiator2.jpeg" alt="Movie" />
+      <img className="img" src="/furious.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Gladiator2</h2>
+      <h2>FURIOUS</h2>
       <p>Action Movie</p>
     </div>
 
@@ -96,11 +96,11 @@ function Home() {
         <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/heart of a hunter.jpeg" alt="Movie" />
+      <img className="img" src="/minions.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Heart of a  Hunter</h2>
+      <h2>MINIONS</h2>
       <p>Action Movie</p>
     </div>
 
@@ -123,11 +123,11 @@ function Home() {
            <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/hounds of war.jpeg" alt="Movie" />
+      <img className="img" src="/motor city.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Hounds of War</h2>
+      <h2>MOTOR CITY</h2>
       <p>Action Movie</p>
     </div>
 
@@ -140,11 +140,11 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/sonic.jpeg" alt="Movie" />
+      <img className="img" src="/mutiny.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Sonic</h2>
+      <h2>MUTINY</h2>
       <p>Action Movie</p>
     </div>
 
@@ -158,11 +158,11 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/red one.jpeg" alt="Movie" />
+      <img className="img" src="/nagabandham.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>RED ONE</h2>
+      <h2>NAGABANDHAM</h2>
       <p>Action Movie</p>
     </div>
 
@@ -180,11 +180,11 @@ function Home() {
  <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/sonic.jpeg" alt="Movie" />
+      <img className="img" src="/spiderman.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Sonic</h2>
+      <h2>SPIDERMAN LONG WAY FROM HOME</h2>
       <p>Action Movie</p>
     </div>
 
@@ -197,11 +197,11 @@ function Home() {
            <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/venom.jpeg" alt="Movie" />
+      <img className="img" src="/super girl.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Venom</h2>
+      <h2>SUPERGIRL</h2>
       <p>Action Movie</p>
     </div>
 
@@ -214,11 +214,11 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/wanted man.jpeg" alt="Movie" />
+      <img className="img" src="/toy story 5.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Wanted Man</h2>
+      <h2>TOY STORY 5</h2>
       <p>Action Movie</p>
     </div>
 
@@ -231,11 +231,11 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/moana2.jpeg" alt="Movie" />
+      <img className="img" src="/washington.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>MOANA 2</h2>
+      <h2>YOUNG WASHINGTON</h2>
       <p>Action Movie</p>
     </div>
 
