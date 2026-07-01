@@ -46,8 +46,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>ALPHA</h2>
-      <p>Action Movie</p>
+      <h2 className='title'>ALPHA</h2>
+      <p >Action Movie</p>
     </div>
 
   </div>
@@ -62,7 +62,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>I LOVE BOOSTER</h2>
+      <h2 className='title'>I LOVE BOOSTERS</h2>
       <p>Action Movie</p>
     </div>
 
@@ -80,7 +80,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>FURIOUS</h2>
+      <h2 className='title'>FURIOUS</h2>
       <p>Action Movie</p>
     </div>
 
@@ -100,7 +100,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>MINIONS</h2>
+      <h2 className='title'>MINIONS</h2>
       <p>Action Movie</p>
     </div>
 
@@ -127,7 +127,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>MOTOR CITY</h2>
+      <h2 className='title'>MOTOR CITY</h2>
       <p>Action Movie</p>
     </div>
 
@@ -144,7 +144,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>MUTINY</h2>
+      <h2 className='title'>MUTINY</h2>
       <p>Action Movie</p>
     </div>
 
@@ -162,7 +162,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>NAGABANDHAM</h2>
+      <h2 className='title'>NAGABANDHAM</h2>
       <p>Action Movie</p>
     </div>
 
@@ -184,7 +184,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>SPIDERMAN BRAND NEW DAY</h2>
+      <h2 className='title'>SPIDERMAN BRAND NEW DAY</h2>
       <p>Action Movie</p>
     </div>
 
@@ -201,7 +201,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>SUPERGIRL</h2>
+      <h2 className='title'>SUPERGIRL</h2>
       <p>Action Movie</p>
     </div>
 
@@ -218,7 +218,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>TOY STORY 5</h2>
+      <h2 className='title'>TOY STORY 5</h2>
       <p>Action Movie</p>
     </div>
 
@@ -235,7 +235,7 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>YOUNG WASHINGTON</h2>
+      <h2 className='title'>YOUNG WASHINGTON</h2>
       <p>Action Movie</p>
     </div>
 
