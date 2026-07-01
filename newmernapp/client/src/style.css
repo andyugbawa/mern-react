@@ -203,11 +203,11 @@ h1{
 }
 
 .slide-left{
-    animation: slideLeft 1.5s ease forwards;
+    animation: slideLeft 5s ease forwards;
 }
 
 .slide-right{
-    animation: slideRight 1.5s ease forwards;
+    animation: slideRight 7s ease forwards;
 }
 
 
