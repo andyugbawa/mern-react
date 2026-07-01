@@ -248,7 +248,7 @@ function Home() {
         </div>
       
 
-      <div className="parent slide-left">
+      <div className="parent slide-right">
 
         
         <div className='text-content'>
