@@ -47,7 +47,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>ALPHA</h2>
-      <p >Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -63,7 +63,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>I LOVE BOOSTERS</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
       </div>
@@ -81,7 +81,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>FURIOUS</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -101,7 +101,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>MINIONS</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -128,7 +128,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>MOTOR CITY</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
       </div>
@@ -145,7 +145,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>MUTINY</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -163,7 +163,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>NAGABANDHAM</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -185,7 +185,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>SPIDERMAN BRAND NEW DAY</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -202,7 +202,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>SUPERGIRL</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -219,7 +219,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>TOY STORY 5</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -236,7 +236,7 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>YOUNG WASHINGTON</h2>
-      <p>Action Movie</p>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
