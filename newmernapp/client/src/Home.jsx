@@ -48,6 +48,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>ALPHA</h2>
       <p className='genre'>Action Movie</p>
+      <p>Keda, a young hunter who is separated from his tribe during a buffalo hunt. To survive the harsh winter, he befriends an injured wolf, beginning a historic bond.</p>
     </div>
 
   </div>
@@ -63,7 +64,8 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>I LOVE BOOSTERS</h2>
-      <p className='genre'>Action Movie</p>
+      <p className='genre'>Comedy Movie</p>
+      <p>It follows the Velvet Gang—a crew of shoplifters ("boosters") who steal high-end luxury clothes to redistribute them at lower prices. When an elite designer targets them, the gang retaliates, launching a chaotic, sci-fi-fueled anti-capitalist crusade.</p>
     </div>
 
       </div>
@@ -82,6 +84,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>FURIOUS</h2>
       <p className='genre'>Action Movie</p>
+      <p>The movie is set in an unnamed city in Southeast Asia and follows Wang Wei, a mute handyman whose unassuming day job conceals a lifetime of martial arts training. His daughter, Rainy, visits him from mainland China during her school holidays and pushes him to relocate and live with her instead. Wang refuses, the two argue, and Rainy storms off into the city.</p>
     </div>
 
   </div>
@@ -237,6 +240,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>YOUNG WASHINGTON</h2>
       <p className='genre'>Action Movie</p>
+      <p></p>
     </div>
 
   </div>
