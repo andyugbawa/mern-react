@@ -105,6 +105,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>MINIONS</h2>
       <p className='genre'>Action Movie</p>
+    <p>In 1920s Hollywood, a new tribe of Minions becomes accidental silent film sensations but loses everything when "talkies" arrive. Desperate, friends James and Henry try to shoot their own monster movie using a stolen spellbook. They accidentally summon real, globe-threatening monsters and must team up to save the world.</p>
     </div>
 
   </div>
@@ -132,6 +133,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>MOTOR CITY</h2>
       <p className='genre'>Action Movie</p>
+      <p>In 1970s Detroit, auto-worker John Miller is framed for a major drug crime by a ruthless mobster and his corrupt police contacts. Years later, he emerges from prison seeking bloody vengeance to reclaim his life and the woman he loves. Directed by Potsy Ponciroli, the action thriller is famously "virtually silent," prioritizing brutal choreography and visuals over dialogue.</p>
     </div>
 
       </div>
@@ -149,6 +151,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>MUTINY</h2>
       <p className='genre'>Action Movie</p>
+      <p>Cole Reed (Jason Statham) is a former Special Forces soldier and ex-NYPD officer who works in private security. When his billionaire boss is murdered in front of him and he is framed for the crime, Reed goes on the run to clear his name and unravel a massive international conspiracy.</p>
     </div>
 
   </div>
@@ -167,6 +170,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>NAGABANDHAM</h2>
       <p className='genre'>Action Movie</p>
+      <p>The Secret Treasure (2026) is a Telugu-language mythological action-adventure film directed by Abhishek Nama. The story follows a ruthless mercenary, Abdali, who hunts for the sacred Brahma Kamalam (a golden lotus) and an ancient manuscript to unlock the mystical Nagabandham—a supernatural gateway concealing a priceless treasure.</p>
     </div>
 
   </div>
@@ -189,6 +193,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>SPIDERMAN BRAND NEW DAY</h2>
       <p className='genre'>Action Movie</p>
+      <p>One More Day" storyline, where Peter Parker made a deal with the demon Mephisto to save Aunt May's life at the cost of his marriage to Mary Jane, his identity is wiped from everyone's memories.</p>
     </div>
 
   </div>
@@ -206,6 +211,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>SUPERGIRL</h2>
       <p className='genre'>Action Movie</p>
+      <p>Supergirl follows a cynical, grief-stricken Kara Zor-El as she parties across the galaxy with her pet dog Krypto. When a ruthless adversary murders the father of a young galactic warrior, Ruthye Marye Knoll, Supergirl reluctantly joins her on an epic, interstellar journey of vengeance and justice.</p>
     </div>
 
   </div>
@@ -222,7 +228,8 @@ function Home() {
 
     <div className="flip-card-back">
       <h2 className='title'>TOY STORY 5</h2>
-      <p className='genre'>Action Movie</p>
+      <p className='genre'>Cartoon Movie</p>
+      <p>Jessie steps up as the new leader of Bonnie's toys as they face their biggest rival yet: a frog-shaped tablet named Lilypad. When Bonnie becomes addicted to the screen, alienating her peers and neglecting her toys, the gang goes on an adventure to help her make real-life friends.</p>
     </div>
 
   </div>
@@ -240,7 +247,8 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>YOUNG WASHINGTON</h2>
       <p className='genre'>Action Movie</p>
-      <p></p>
+      <p>Young Washington is a 2026 historical war drama directed by Jon Erwin. It follows the 22-year-old George Washington (William Franklyn-Miller) as he rises above a modest station to serve in the French and Indian War. Driven by ambition, his early military missteps during the Jumonville Glen ambush inadvertently spark global conflict before he grows into a capable, respected leader at the Battle of the Monongahela.</p>
+      
     </div>
 
   </div>
