@@ -329,7 +329,7 @@ function Home() {
         <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/hoopers-Copy.jpeg" alt="Movie" />
+      <img className="img" src="/hoopers.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
@@ -356,7 +356,7 @@ function Home() {
            <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/jack ryan-Copy.jpeg" alt="Movie" />
+      <img className="img" src="/jack ryan.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
@@ -464,7 +464,7 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/masters-Copy.jpeg" alt="Movie" />
+      <img className="img" src="/masters.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
