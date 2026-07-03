@@ -69,6 +69,8 @@ function SignUp() {
 
         </div>
 
+        <p>Already have an Account click Login</p>
+
       </div>
     </form>
   )
