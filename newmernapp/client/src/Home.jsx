@@ -464,7 +464,7 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/master.jpeg" alt="Movie" />
+      <img className="img" src="/masters.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
