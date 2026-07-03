@@ -16,6 +16,10 @@ function Home() {
   return(
     <div>
 
+      <div className='log-out'>
+        <button>Log out</button>
+      </div>
+
     <h1>Welcome Home</h1>
 
     <div>
