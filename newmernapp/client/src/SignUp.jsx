@@ -66,10 +66,10 @@ function SignUp() {
           
           <button className='btn btn-success w-100 mt-3'>Login</button>
           
+        <p>Already have an Account click Login</p>
 
         </div>
 
-        <p>Already have an Account click Login</p>
 
       </div>
     </form>
