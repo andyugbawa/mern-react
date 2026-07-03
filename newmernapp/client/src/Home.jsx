@@ -275,11 +275,11 @@ function Home() {
         <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/city hunter.jpeg" alt="Movie" />
+      <img className="img" src="/crime 101.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>City Hunter</h2>
+      <h2>Crime 101</h2>
       <p>Action Movie</p>
     </div>
 
@@ -291,11 +291,11 @@ function Home() {
         >
       <div className="flip-card-inner">
     <div className="flip-card-front">
-      <img className="img" src="/dune part2.jpeg" alt="Movie" />
+      <img className="img" src="/desert warior.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>DUNE Part 2</h2>
+      <h2>Desert Warior</h2>
       <p>Action Movie</p>
     </div>
 
@@ -309,12 +309,12 @@ function Home() {
          <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/gladiator2.jpeg" alt="Movie" />
+      <img className="img" src="/goat.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Gladiator2</h2>
-      <p>Action Movie</p>
+      <h2>Goat</h2>
+      <p>Cartoon Movie</p>
     </div>
 
   </div>
@@ -329,12 +329,12 @@ function Home() {
         <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/heart of a hunter.jpeg" alt="Movie" />
+      <img className="img" src="/hoopers-Copy.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Heart of a  Hunter</h2>
-      <p>Action Movie</p>
+      <h2>The Hoopers</h2>
+      <p>Cartoon Movie</p>
     </div>
 
   </div>
@@ -356,11 +356,11 @@ function Home() {
            <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/hounds of war.jpeg" alt="Movie" />
+      <img className="img" src="/jack ryan-Copy.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Hounds of War</h2>
+      <h2>Jack Ryan</h2>
       <p>Action Movie</p>
     </div>
 
@@ -373,11 +373,11 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/sonic.jpeg" alt="Movie" />
+      <img className="img" src="/mortal kombat.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Sonic</h2>
+      <h2>Mortal Kombat</h2>
       <p>Action Movie</p>
     </div>
 
@@ -391,12 +391,12 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/red one.jpeg" alt="Movie" />
+      <img className="img" src="/pet.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>RED ONE</h2>
-      <p>Action Movie</p>
+      <h2>Pet Detective</h2>
+      <p>Thriller Movie</p>
     </div>
 
   </div>
@@ -413,12 +413,12 @@ function Home() {
  <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/sonic.jpeg" alt="Movie" />
+      <img className="img" src="/prada.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Sonic</h2>
-      <p>Action Movie</p>
+      <h2>Devil Wears Prada 2</h2>
+      <p>Thriller Movie</p>
     </div>
 
   </div>
@@ -430,11 +430,11 @@ function Home() {
            <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/venom.jpeg" alt="Movie" />
+      <img className="img" src="/robin hood.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Venom</h2>
+      <h2>Death of Robin Hood</h2>
       <p>Action Movie</p>
     </div>
 
@@ -447,11 +447,11 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/wanted man.jpeg" alt="Movie" />
+      <img className="img" src="/scary movie.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>Wanted Man</h2>
+      <h2>Scary Movie VI</h2>
       <p>Action Movie</p>
     </div>
 
@@ -464,11 +464,11 @@ function Home() {
             <div className="flip-card-inner">
 
     <div className="flip-card-front">
-      <img className="img" src="/moana2.jpeg" alt="Movie" />
+      <img className="img" src="/masters-Copy.jpeg" alt="Movie" />
     </div>
 
     <div className="flip-card-back">
-      <h2>MOANA 2</h2>
+      <h2>Masters of the Universe</h2>
       <p>Action Movie</p>
     </div>
 
