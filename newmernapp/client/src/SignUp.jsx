@@ -63,8 +63,13 @@ function SignUp() {
             Register
           </button>
 
-          
-          <button className='btn btn-success w-100 mt-3'>Login</button>
+          <button
+  type="button"
+  className="btn btn-success w-100 mt-3"
+  onClick={() => navigate("/login")}
+>
+  Login
+</button>
              <div className='info'>
              <p>Already have an Account click Login</p>
 

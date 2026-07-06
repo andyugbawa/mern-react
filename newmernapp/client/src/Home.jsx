@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import "./style.css"
+import { Link } from "react-router-dom";
+
 
 
 function Home() {
@@ -283,8 +285,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Crime 101</h2>
-      <p>Action Movie</p>
+      <h2 className='title'>Crime 101</h2>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -299,8 +301,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Desert Warior</h2>
-      <p>Action Movie</p>
+      <h2 className='title'>Desert Warior</h2>
+      <p className='genre'>Action Movie</p>
     </div>
 
       </div>
@@ -317,8 +319,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Goat</h2>
-      <p>Cartoon Movie</p>
+      <h2 className='title'>Goat</h2>
+      <p className='genre'>Cartoon Movie</p>
     </div>
 
   </div>
@@ -337,8 +339,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>The Hoopers</h2>
-      <p>Cartoon Movie</p>
+      <h2 className='title'>The Hoopers</h2>
+      <p className='genre'>Cartoon Movie</p>
     </div>
 
   </div>
@@ -364,8 +366,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Jack Ryan</h2>
-      <p>Action Movie</p>
+      <h2 className='title'>Jack Ryan</h2>
+      <p className='genre'>Action Movie</p>
     </div>
 
       </div>
@@ -381,8 +383,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Mortal Kombat</h2>
-      <p>Action Movie</p>
+      <h2 className='title'>Mortal Kombat</h2>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -399,8 +401,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Pet Detective</h2>
-      <p>Thriller Movie</p>
+      <h2 className='title'>Pet Detective</h2>
+      <p className='genre'>Thriller Movie</p>
     </div>
 
   </div>
@@ -421,8 +423,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Devil Wears Prada 2</h2>
-      <p>Thriller Movie</p>
+      <h2 className='title'>Devil Wears Prada 2</h2>
+      <p className='genre'>Thriller Movie</p>
     </div>
 
   </div>
@@ -438,8 +440,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Death of Robin Hood</h2>
-      <p>Action Movie</p>
+      <h2 className='title'>Death of Robin Hood</h2>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
@@ -455,8 +457,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Scary Movie VI</h2>
-      <p>Action Movie</p>
+      <h2 className='title'>Scary Movie VI</h2>
+      <p className='genre'>Comedy Movie</p>
     </div>
 
   </div>
@@ -472,8 +474,8 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2>Masters of the Universe</h2>
-      <p>Action Movie</p>
+      <h2 className='title'>Masters of the Universe</h2>
+      <p className='genre'>Action Movie</p>
     </div>
 
   </div>
