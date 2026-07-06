@@ -496,6 +496,468 @@ function Home() {
         
       
         </div>
+
+      <div className="parent slide-left">
+
+        
+        <div className='text-content'>
+           <h2>CLICK EACH MOVIE CARD FOR INFO</h2>
+        </div>
+
+      <div className="content">
+        <div className={`flip-card ${flippedCards.card1 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card1")}
+        >
+          
+        <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/crime 101.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Crime 101</h2>
+      <p className='genre'>Action Movie</p>
+      <p>Crime 101 follows a meticulous, elusive jewel thief whose high-stakes heists along Los Angeles' iconic 101 freeway confound police. When he eyes the score of a lifetime for his final job, his path collides with an obsessive, relentless detective determined to catch him before he gets away.</p>
+    </div>
+
+  </div>
+</div>
+ 
+        <div className={`flip-card ${flippedCards.card2 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card2")}
+        >
+      <div className="flip-card-inner">
+    <div className="flip-card-front">
+      <img className="img" src="/desert warior.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Desert Warior</h2>
+      <p className='genre'>Action Movie</p>
+      <p>Desert Warrior (2026) follows fearless Princess Hind (Aiysha Hart), who defies the Sasanian Emperor Kisra by refusing to become his concubine. Fleeing into the desert with her father, she allies with a mysterious bandit (Anthony Mackie) to unite disparate Arab tribes and make a historic last stand at the Battle of Dhi Qar.</p>
+    </div>
+
+      </div>
+        </div>
+
+        <div className={`flip-card ${flippedCards.card3 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card3")}
+        >
+        
+         <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/goat.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Goat</h2>
+      <p className='genre'>Cartoon Movie</p>
+      <p>an animated sports-comedy following Will, a small, underdog goat with big dreams of playing "roarball"—an intense, full-contact sport dominated by massive animals. After a viral video lands him on a pro team with his idol, he must overcome team skepticism to prove "smalls can ball."</p>
+    </div>
+
+  </div>
+
+        </div>
+
+        <div className={`flip-card ${flippedCards.card4 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card4")}
+        
+        > 
+        
+        <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/hoopers.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>The Hoopers</h2>
+      <p className='genre'>Cartoon Movie</p>
+      <p>Hoppers (2026) follows Mabel (voiced by Piper Curda), an animal-loving college student who uses groundbreaking technology to transfer her consciousness into a lifelike robotic beaver. She uses this to infiltrate the animal kingdom, but gets caught up in trying to save their habitat from a destructive local mayor.</p>
+    </div>
+
+  </div>
+
+        </div> 
+
+
+
+
+
+
+        </div>
+
+            
+        <div className="content1">
+        <div className={`flip-card ${flippedCards.card5 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card5")}
+        >
+           <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/jack ryan.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Jack Ryan</h2>
+      <p className='genre'>Action Movie</p>
+      <p>a retired Jack Ryan is pulled back into espionage by CIA Director James Greer. He is tasked with a simple courier job in Dubai that quickly turns deadly, unraveling a conspiracy tied to "Project Starling," an unsanctioned post-9/11 black-ops unit that Greer and MI6 helped create.</p>
+    </div>
+
+      </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card6 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card6")}
+        >
+            <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/mortal kombat.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Mortal Kombat</h2>
+      <p className='genre'>Action Movie</p>
+      <p>Mortal Kombat centers on an ancient, interdimensional martial arts tournament where Earthrealm's greatest warriors must defeat the forces of the tyrannical Outworld. If Outworld wins ten consecutive tournaments, they are legally permitted to invade and conquer Earthrealm.</p>
+    </div>
+
+  </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card7 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card7")}
+        
+        >
+            <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/pet.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>The Sheep Detective</h2>
+      <p className='genre'>Thriller Movie</p>
+      <p>The Sheep Detectives (originally anticipated as a pet detective-style project) follows George Hardy (Hugh Jackman), an idyllic English shepherd who reads murder mysteries to his sheep every night. When George is mysteriously murdered, the flock takes matters into their own hooves, working to solve the crime and bring the real killer to justice.</p>
+    </div>
+
+  </div>
+
+        </div>
+        </div>
+
+          
+         
+      <div className="content2">
+        <div className={`flip-card ${flippedCards.card8 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card8")}
+        >
+ <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/prada.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Devil Wears Prada 2</h2>
+      <p className='genre'>Thriller Movie</p>
+      <p>The Devil Wears Prada 2 follows a laid-off journalist, Andy Sachs (Anne Hathaway). To save a scandal-plagued Runway magazine, she is forced to reunite with her former boss, Miranda Priestly (Meryl Streep), and navigate cutthroat corporate threats from a powerful Dior executive, Emily (Emily Blunt).</p>
+    </div>
+
+  </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card9 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card9")}
+        >
+           <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/robin hood.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Death of Robin Hood</h2>
+      <p className='genre'>Action Movie</p>
+      <p>The Death of Robin Hood, an aging, remorseful Robin (Hugh Jackman) hides in self-imposed exile after a lifetime of violent banditry. Grappling with his bloody past and fatal injuries, he finds sanctuary at an island priory, where he seeks redemption and ultimately asks Sister Brigid (Jodie Comer) to assist him in his death through bloodletting.</p>
+    </div>
+
+  </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card10 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card10")}
+        >
+            <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/scary movie.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Scary Movie VI</h2>
+      <p className='genre'>Comedy Movie</p>
+      <p>Scary Movie 6 (also titled Scary Movie), the original crew reunites 26 years after their first run-in with Ghostface. When a new masked killer attacks Tuesday Campbell, her sister Sara and boyfriend Jack seek help from her mother, Cindy (Anna Faris). Cindy—now a recluse with booby-trapped survival gear—must team up with Brenda, Shorty, and Ray to stop the bloodshed.</p>
+    </div>
+
+  </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card11 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card11")}
+        >
+            <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/masters.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Masters of the Universe</h2>
+      <p className='genre'>Action Movie</p>
+      <p>fifteen years after being exiled to Earth, Prince Adam (Nicholas Galitzine) reclaims the Sword of Power. He returns to his war-torn home world of Eternia to unite fractured factions and defeat the ruthless Skeletor (Jared Leto) before Castle Grayskull falls into eternal darkness.</p>
+    </div>
+
+  </div>
+
+        </div>
+        </div>  
+        
+      
+        </div>
+
+      <div className="parent slide-right">
+
+        
+        <div className='text-content'>
+           <h2>CLICK EACH MOVIE CARD FOR INFO</h2>
+        </div>
+
+      <div className="content">
+        <div className={`flip-card ${flippedCards.card1 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card1")}
+        >
+          
+        <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/crime 101.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Crime 101</h2>
+      <p className='genre'>Action Movie</p>
+      <p>Crime 101 follows a meticulous, elusive jewel thief whose high-stakes heists along Los Angeles' iconic 101 freeway confound police. When he eyes the score of a lifetime for his final job, his path collides with an obsessive, relentless detective determined to catch him before he gets away.</p>
+    </div>
+
+  </div>
+</div>
+ 
+        <div className={`flip-card ${flippedCards.card2 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card2")}
+        >
+      <div className="flip-card-inner">
+    <div className="flip-card-front">
+      <img className="img" src="/desert warior.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Desert Warior</h2>
+      <p className='genre'>Action Movie</p>
+      <p>Desert Warrior (2026) follows fearless Princess Hind (Aiysha Hart), who defies the Sasanian Emperor Kisra by refusing to become his concubine. Fleeing into the desert with her father, she allies with a mysterious bandit (Anthony Mackie) to unite disparate Arab tribes and make a historic last stand at the Battle of Dhi Qar.</p>
+    </div>
+
+      </div>
+        </div>
+
+        <div className={`flip-card ${flippedCards.card3 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card3")}
+        >
+        
+         <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/goat.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Goat</h2>
+      <p className='genre'>Cartoon Movie</p>
+      <p>an animated sports-comedy following Will, a small, underdog goat with big dreams of playing "roarball"—an intense, full-contact sport dominated by massive animals. After a viral video lands him on a pro team with his idol, he must overcome team skepticism to prove "smalls can ball."</p>
+    </div>
+
+  </div>
+
+        </div>
+
+        <div className={`flip-card ${flippedCards.card4 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card4")}
+        
+        > 
+        
+        <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/hoopers.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>The Hoopers</h2>
+      <p className='genre'>Cartoon Movie</p>
+      <p>Hoppers (2026) follows Mabel (voiced by Piper Curda), an animal-loving college student who uses groundbreaking technology to transfer her consciousness into a lifelike robotic beaver. She uses this to infiltrate the animal kingdom, but gets caught up in trying to save their habitat from a destructive local mayor.</p>
+    </div>
+
+  </div>
+
+        </div> 
+
+
+
+
+
+
+        </div>
+
+            
+        <div className="content1">
+        <div className={`flip-card ${flippedCards.card5 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card5")}
+        >
+           <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/jack ryan.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Jack Ryan</h2>
+      <p className='genre'>Action Movie</p>
+      <p>a retired Jack Ryan is pulled back into espionage by CIA Director James Greer. He is tasked with a simple courier job in Dubai that quickly turns deadly, unraveling a conspiracy tied to "Project Starling," an unsanctioned post-9/11 black-ops unit that Greer and MI6 helped create.</p>
+    </div>
+
+      </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card6 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card6")}
+        >
+            <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/mortal kombat.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Mortal Kombat</h2>
+      <p className='genre'>Action Movie</p>
+      <p>Mortal Kombat centers on an ancient, interdimensional martial arts tournament where Earthrealm's greatest warriors must defeat the forces of the tyrannical Outworld. If Outworld wins ten consecutive tournaments, they are legally permitted to invade and conquer Earthrealm.</p>
+    </div>
+
+  </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card7 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card7")}
+        
+        >
+            <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/pet.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>The Sheep Detective</h2>
+      <p className='genre'>Thriller Movie</p>
+      <p>The Sheep Detectives (originally anticipated as a pet detective-style project) follows George Hardy (Hugh Jackman), an idyllic English shepherd who reads murder mysteries to his sheep every night. When George is mysteriously murdered, the flock takes matters into their own hooves, working to solve the crime and bring the real killer to justice.</p>
+    </div>
+
+  </div>
+
+        </div>
+        </div>
+
+          
+         
+      <div className="content2">
+        <div className={`flip-card ${flippedCards.card8 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card8")}
+        >
+ <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/prada.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Devil Wears Prada 2</h2>
+      <p className='genre'>Thriller Movie</p>
+      <p>The Devil Wears Prada 2 follows a laid-off journalist, Andy Sachs (Anne Hathaway). To save a scandal-plagued Runway magazine, she is forced to reunite with her former boss, Miranda Priestly (Meryl Streep), and navigate cutthroat corporate threats from a powerful Dior executive, Emily (Emily Blunt).</p>
+    </div>
+
+  </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card9 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card9")}
+        >
+           <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/robin hood.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Death of Robin Hood</h2>
+      <p className='genre'>Action Movie</p>
+      <p>The Death of Robin Hood, an aging, remorseful Robin (Hugh Jackman) hides in self-imposed exile after a lifetime of violent banditry. Grappling with his bloody past and fatal injuries, he finds sanctuary at an island priory, where he seeks redemption and ultimately asks Sister Brigid (Jodie Comer) to assist him in his death through bloodletting.</p>
+    </div>
+
+  </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card10 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card10")}
+        >
+            <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/scary movie.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Scary Movie VI</h2>
+      <p className='genre'>Comedy Movie</p>
+      <p>Scary Movie 6 (also titled Scary Movie), the original crew reunites 26 years after their first run-in with Ghostface. When a new masked killer attacks Tuesday Campbell, her sister Sara and boyfriend Jack seek help from her mother, Cindy (Anna Faris). Cindy—now a recluse with booby-trapped survival gear—must team up with Brenda, Shorty, and Ray to stop the bloodshed.</p>
+    </div>
+
+  </div>
+
+        </div>
+        <div className={`flip-card ${flippedCards.card11 ? "flipped" :""}`}
+         onClick={()=>handleFlip("card11")}
+        >
+            <div className="flip-card-inner">
+
+    <div className="flip-card-front">
+      <img className="img" src="/masters.jpeg" alt="Movie" />
+    </div>
+
+    <div className="flip-card-back">
+      <h2 className='title'>Masters of the Universe</h2>
+      <p className='genre'>Action Movie</p>
+      <p>fifteen years after being exiled to Earth, Prince Adam (Nicholas Galitzine) reclaims the Sword of Power. He returns to his war-torn home world of Eternia to unite fractured factions and defeat the ruthless Skeletor (Jared Leto) before Castle Grayskull falls into eternal darkness.</p>
+    </div>
+
+  </div>
+
+        </div>
+        </div>  
+        
+      
+        </div>
       
 
       
