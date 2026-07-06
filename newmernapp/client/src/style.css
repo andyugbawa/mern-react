@@ -226,6 +226,14 @@ h1{
     animation: slideRight 7s ease forwards;
 }
 
+.slide-left1{
+    animation: slideLeft 7s ease forwards;
+}
+
+.slide-right2{
+    animation: slideRight 9s ease forwards;
+}
+
 
 
 
@@ -241,6 +249,28 @@ h1{
 }
 
 @keyframes slideRight{
+    from{
+        transform:translateX(100%);
+        opacity:0;
+    }
+    to{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+@keyframes slideLeft1 {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight2{
     from{
         transform:translateX(100%);
         opacity:0;

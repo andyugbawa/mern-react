@@ -497,7 +497,7 @@ function Home() {
       
         </div>
 
-      <div className="parent slide-left">
+      <div className="parent slide-left1">
 
         
         <div className='text-content'>
@@ -728,7 +728,7 @@ function Home() {
       
         </div>
 
-      <div className="parent slide-right">
+      <div className="parent slide-right2">
 
         
         <div className='text-content'>
