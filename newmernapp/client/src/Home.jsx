@@ -518,7 +518,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>72 Hours</h2>
       <p className='genre'>Action Movie</p>
-      <p>Crime 101 follows a meticulous, elusive jewel thief whose high-stakes heists along Los Angeles' iconic 101 freeway confound police. When he eyes the score of a lifetime for his final job, his path collides with an obsessive, relentless detective determined to catch him before he gets away.</p>
+      <p> A forty-year-old executive hopes to save his flailing career by joining a group of twenty-somethings on a wild three-day bachelor party, after he's inadvertently added to their group text.</p>
     </div>
 
   </div>
@@ -535,7 +535,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Animal Farm</h2>
       <p className='genre'>Cartoon Movie</p>
-      <p>Desert Warrior (2026) follows fearless Princess Hind (Aiysha Hart), who defies the Sasanian Emperor Kisra by refusing to become his concubine. Fleeing into the desert with her father, she allies with a mysterious bandit (Anthony Mackie) to unite disparate Arab tribes and make a historic last stand at the Battle of Dhi Qar.</p>
+      <p>Animal Farm traces how a movement for equality is systematically corrupted. As the pigs consolidate control, truth is erased, dissent is crushed, and the farm descends into a ruthless dictatorship—fulfilling Orwell's warning about the dangers of communism.</p>
     </div>
 
       </div>
@@ -554,7 +554,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Apex</h2>
       <p className='genre'>Action Movie</p>
-      <p>an animated sports-comedy following Will, a small, underdog goat with big dreams of playing "roarball"—an intense, full-contact sport dominated by massive animals. After a viral video lands him on a pro team with his idol, he must overcome team skepticism to prove "smalls can ball."</p>
+      <p>The film follows Sasha (Charlize Theron), a grieving mountain climber who retreats to the rugged Australian wilderness after being forced to cut her husband's (Eric Bana) rope during a deadly storm on Norway's Troll Wall. Seeking isolation, she is approached by Ben (Taron Egerton), a seemingly helpful local who directs her to a remote campsite.Sasha soon realizes she is being stalked and hunted by Ben, who operates as a ritualistic cannibal that turns his victims into beef jerky. After being captured and chained up with the remains of other missing people, Sasha breaks free, battles the killer, and ends up severely wounding him. Trapped together in the unforgiving bush, they are ultimately forced to work as an uneasy, shackled tandem team to scale a steep canyon wall and survive.For a breakdown and analysis of how Charlize Theron fights her way to freedom in the climax of the film:8:42Apex (2026) | Full RecapRecap RoomYouTube · 24 Épr 20263 sites'Apex' Review: Charlize Theron stalked by Taron Egerton Action Flick23 Épr 2026 — Watch on Deadline * Title: Apex. * Distributor: Netflix. * Release date: April 24, 2026. * Director: Baltasar Kormákur. * Screenwr...DeadlineApex (2026) - IMDbA mountain climber haunted by a fatal decision in Norway retreats to the Australian wilderness for isolation. Her journey turns in...IMDbApex (2026) - Plot - IMDbSummaries. A mountain climber haunted by a fatal decision in Norway retreats to the Australian wilderness for isolation.</p>
     </div>
 
   </div>
@@ -575,7 +575,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>The Ballistic</h2>
       <p className='genre'>Action Movie</p>
-      <p>Hoppers (2026) follows Mabel (voiced by Piper Curda), an animal-loving college student who uses groundbreaking technology to transfer her consciousness into a lifelike robotic beaver. She uses this to infiltrate the animal kingdom, but gets caught up in trying to save their habitat from a destructive local mayor.</p>
+      <p>When a soldier's mother (Lena Headey) discovers the bullet that killed her son in Afghanistan was made at the factory where she works, she sets out on a path of revenge against those responsible.</p>
     </div>
 
   </div>
@@ -603,7 +603,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Enemy Within</h2>
       <p className='genre'>Action Movie</p>
-      <p>a retired Jack Ryan is pulled back into espionage by CIA Director James Greer. He is tasked with a simple courier job in Dubai that quickly turns deadly, unraveling a conspiracy tied to "Project Starling," an unsanctioned post-9/11 black-ops unit that Greer and MI6 helped create.</p>
+      <p>An Enemy Within follows Caleb Wingate on his wedding night. After marrying into a wealthy and powerful family, he is given a chilling ultimatum by an assassin known as "The Wolf": kill his new father-in-law before midnight or his bride will die.</p>
     </div>
 
       </div>
@@ -621,7 +621,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Fuze</h2>
       <p className='genre'>Action Movie</p>
-      <p>Mortal Kombat centers on an ancient, interdimensional martial arts tournament where Earthrealm's greatest warriors must defeat the forces of the tyrannical Outworld. If Outworld wins ten consecutive tournaments, they are legally permitted to invade and conquer Earthrealm.</p>
+      <p> British crime thriller where the discovery of an unexploded World War II bomb in central London triggers a massive citywide evacuation. While military expert Will (Aaron Taylor-Johnson) and Chief Supt. Zuzana (Gugu Mbatha-Raw) manage the crisis, a crew led by Karalis (Theo James) and X (Sam Worthington) uses the chaos as cover for an audacious, meticulously planned bank heist.</p>
     </div>
 
   </div>
@@ -640,7 +640,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Enola Holmes 3</h2>
       <p className='genre'>Action Movie</p>
-      <p>The Sheep Detectives (originally anticipated as a pet detective-style project) follows George Hardy (Hugh Jackman), an idyllic English shepherd who reads murder mysteries to his sheep every night. When George is mysteriously murdered, the flock takes matters into their own hooves, working to solve the crime and bring the real killer to justice.</p>
+      <p> It follows the young detective as she travels to Malta to marry Lord Tewkesbury. Their wedding is put on hold when Sherlock is kidnapped. Enola, joined by Tewkesbury and Dr. Watson, must decipher clues left by Moriarty that reveal a dark colonial conspiracy involving stolen Afghan gold.</p>
     </div>
 
   </div>
@@ -663,7 +663,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Hungry</h2>
       <p className='genre'>Thriller Movie</p>
-      <p>The Devil Wears Prada 2 follows a laid-off journalist, Andy Sachs (Anne Hathaway). To save a scandal-plagued Runway magazine, she is forced to reunite with her former boss, Miranda Priestly (Meryl Streep), and navigate cutthroat corporate threats from a powerful Dior executive, Emily (Emily Blunt).</p>
+      <p>The plot follows a group of vacationers and thrill-seeking tourists on a riverboat tour through the Louisiana swamplands. Their exclusive adventure turns deadly when they are stranded and forced to fight for their lives against a highly aggressive, ravenous hippopotamus.</p>
     </div>
 
   </div>
@@ -681,7 +681,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Killing Faith</h2>
       <p className='genre'>Action Movie</p>
-      <p>The Death of Robin Hood, an aging, remorseful Robin (Hugh Jackman) hides in self-imposed exile after a lifetime of violent banditry. Grappling with his bloody past and fatal injuries, he finds sanctuary at an island priory, where he seeks redemption and ultimately asks Sister Brigid (Jodie Comer) to assist him in his death through bloodletting.</p>
+      <p>It follows a cynical, widowed doctor (Guy Pearce) and a freed slave (DeWanda Wise) on a perilous, five-day desert journey to find a faith healer (Bill Pullman) for her mute daughter, whose touch brings instant death.</p>
     </div>
 
   </div>
@@ -699,7 +699,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>The Passenger</h2>
       <p className='genre'>Thriller Movie</p>
-      <p>Scary Movie 6 (also titled Scary Movie), the original crew reunites 26 years after their first run-in with Ghostface. When a new masked killer attacks Tuesday Campbell, her sister Sara and boyfriend Jack seek help from her mother, Cindy (Anna Faris). Cindy—now a recluse with booby-trapped survival gear—must team up with Brenda, Shorty, and Ray to stop the bloodshed.</p>
+      <p>It follows Hassan, a struggling Somali-American airport shuttle driver in Minneapolis. Desperate for money, he illegally accepts a fare to drive a stranded young man named Lloyd to Chicago, only to realize his mysterious passenger may be involved in a terrorist bombing.</p>
     </div>
 
   </div>
@@ -717,7 +717,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Personhood</h2>
       <p className='genre'>Action Movie</p>
-      <p>fifteen years after being exiled to Earth, Prince Adam (Nicholas Galitzine) reclaims the Sword of Power. He returns to his war-torn home world of Eternia to unite fractured factions and defeat the ruthless Skeletor (Jared Leto) before Castle Grayskull falls into eternal darkness.</p>
+      <p> It follows Waylen, an isolated and physically challenged man on Spain's Costa del Sol, who purchases a stunning AI companion robot named Gala to escape his loneliness. His struggle with personal insecurities and the sudden arrival of his charming, suspicious brother threaten to unravel his one chance at love. The film dives deeply into themes of free will, programming, and what happens when an AI says "I love you".</p>
     </div>
 
   </div>
