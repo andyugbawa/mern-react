@@ -728,6 +728,9 @@ function Home() {
       
         </div>
 
+
+
+
       <div className="parent slide-right2">
 
         
@@ -735,7 +738,10 @@ function Home() {
            <h2>CLICK EACH MOVIE CARD FOR INFO</h2>
         </div>
 
+
+
       <div className="content">
+
         <div className={`flip-card ${flippedCards.card1 ? "flipped" :""}`}
          onClick={()=>handleFlip("card1")}
         >
@@ -751,7 +757,6 @@ function Home() {
       <p className='genre'>Action Movie</p>
       <p>Disclosure Day follows a rogue cyber-security expert, Daniel (Josh O'Connor), and a television meteorologist, Margaret (Emily Blunt), who act as two halves of a global alien experiment. After Daniel steals decades of suppressed alien files from the shadow government agency Wardex, he races to broadcast the truth to the world before escalating global tensions trigger a nuclear war.</p>
     </div>
-
   </div>
         </div>
  
@@ -813,9 +818,9 @@ function Home() {
 
   </div>
 
-        </div> 
+        </div>
          </div>
-         </div>
+         
 
 
             
@@ -956,21 +961,13 @@ function Home() {
 
         </div>
         </div>  
-        
-      
-        
-      
-
-      
-
-        
-      
-   
-
-
     </div>
-
    </div>
+
+
+
+
+
   ) 
 }
 

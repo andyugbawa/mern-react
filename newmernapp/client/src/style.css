@@ -105,7 +105,8 @@ h1{
     display: flex;
     justify-content: center;
     gap: 10px;
-    overflow: hidden;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
    animation: slideIn 5s ease forwards;
 
     
