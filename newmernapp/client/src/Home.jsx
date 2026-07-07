@@ -812,12 +812,9 @@ function Home() {
 
         </div> 
 
-
-
-
-
-
         </div>
+         </div>
+
 
             
         <div className="content1">
@@ -874,11 +871,11 @@ function Home() {
     </div>
 
   </div>
+        </div>
+        </div>
+   
 
-        </div>
-        </div>
-    </div>
-          
+
          
       <div className="content2">
         <div className={`flip-card ${flippedCards.card8 ? "flipped" :""}`}
