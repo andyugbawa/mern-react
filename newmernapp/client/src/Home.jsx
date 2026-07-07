@@ -968,7 +968,7 @@ function Home() {
 
     </div>
 
-
+   </div>
   ) 
 }
 
