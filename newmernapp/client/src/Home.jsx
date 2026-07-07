@@ -749,7 +749,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Disclosure Day</h2>
       <p className='genre'>Action Movie</p>
-      <p>Crime 101 follows a meticulous, elusive jewel thief whose high-stakes heists along Los Angeles' iconic 101 freeway confound police. When he eyes the score of a lifetime for his final job, his path collides with an obsessive, relentless detective determined to catch him before he gets away.</p>
+      <p>Disclosure Day follows a rogue cyber-security expert, Daniel (Josh O'Connor), and a television meteorologist, Margaret (Emily Blunt), who act as two halves of a global alien experiment. After Daniel steals decades of suppressed alien files from the shadow government agency Wardex, he races to broadcast the truth to the world before escalating global tensions trigger a nuclear war.</p>
     </div>
 
   </div>
@@ -766,7 +766,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Dune 3</h2>
       <p className='genre'>Action Movie</p>
-      <p>Desert Warrior (2026) follows fearless Princess Hind (Aiysha Hart), who defies the Sasanian Emperor Kisra by refusing to become his concubine. Fleeing into the desert with her father, she allies with a mysterious bandit (Anthony Mackie) to unite disparate Arab tribes and make a historic last stand at the Battle of Dhi Qar.</p>
+      <p> A complex plot orchestrated by Paul's wife Princess Irulan, the Bene Gesserit, the Spacing Guild, and the Tleilaxu to dethrone him.</p>
     </div>
 
       </div>
@@ -783,10 +783,9 @@ function Home() {
     </div>
 
     <div className="flip-card-back">
-      <h2 className='title'>Greenland2</h2>
+      <h2 className='title'>Greenland 2: Migration </h2>
       <p className='genre'>Thriller Movie</p>
-      <p>an animated sports-comedy following Will, a small, underdog goat with big dreams of playing "roarball"—an intense, full-contact sport dominated by massive animals. After a viral video lands him on a pro team with his idol, he must overcome team skepticism to prove "smalls can ball."</p>
-    </div>
+      <p>The Garrity family is forced to leave their bunker in Greenland. They embark on a perilous trek across the decimated, frozen wastelands of Europe to find a new home, facing radiation, falling comet fragments, and hostile survivors.</p>
 
   </div>
 
@@ -806,7 +805,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>The Hawk</h2>
       <p className='genre'>Comedy Movie</p>
-      <p>Hoppers (2026) follows Mabel (voiced by Piper Curda), an animal-loving college student who uses groundbreaking technology to transfer her consciousness into a lifelike robotic beaver. She uses this to infiltrate the animal kingdom, but gets caught up in trying to save their habitat from a destructive local mayor.</p>
+      <p>Desperate to complete golf's Grand Slam, he embarks on an unhinged comeback attempt to win one last major, while dragging his ex-wife (Molly Shannon), his caddie (Fortune Feimster), and his rising golf-star son (Jimmy Tatro) into the chaos.</p>
     </div>
 
   </div>
@@ -834,7 +833,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Moana 2</h2>
       <p className='genre'>Cartoon Movie</p>
-      <p>a retired Jack Ryan is pulled back into espionage by CIA Director James Greer. He is tasked with a simple courier job in Dubai that quickly turns deadly, unraveling a conspiracy tied to "Project Starling," an unsanctioned post-9/11 black-ops unit that Greer and MI6 helped create.</p>
+      <p>Three years after the first film, Moana receives a vision from her ancestors explaining that the ancient storm god Nalo hid the mystical island of Motufetu to separate the ocean's people. To break the curse and reunite her people, Moana builds a diverse crew and teams up with the demigod Maui.</p>
     </div>
 
       </div>
@@ -852,7 +851,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Odyssey</h2>
       <p className='genre'>Action Movie</p>
-      <p>Mortal Kombat centers on an ancient, interdimensional martial arts tournament where Earthrealm's greatest warriors must defeat the forces of the tyrannical Outworld. If Outworld wins ten consecutive tournaments, they are legally permitted to invade and conquer Earthrealm.</p>
+      <p>The Odyssey follows the legendary King of Ithaca as he battles mythological monsters and the wrath of the gods to return home after the Trojan War. Parallel to his dangerous voyage across the Mediterranean, his wife Penelope and son Telemachus fight to save his kingdom from being usurped by aggressive suitors.</p>
     </div>
 
   </div>
@@ -871,7 +870,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Project Hail Mary</h2>
       <p className='genre'>Thriller Movie</p>
-      <p>The Sheep Detectives (originally anticipated as a pet detective-style project) follows George Hardy (Hugh Jackman), an idyllic English shepherd who reads murder mysteries to his sheep every night. When George is mysteriously murdered, the flock takes matters into their own hooves, working to solve the crime and bring the real killer to justice.</p>
+      <p>Ryland Grace wakes up from a coma aboard a spaceship with amnesia, discovering he is the sole survivor of a one-way, last-chance mission. He must recall his past as a teacher and solve a microscopic alien threat (Astrophage) that is dimming the sun and starving Earth.</p>
     </div>
 
   </div>
@@ -894,7 +893,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Ramayana</h2>
       <p className='genre'>Thriller Movie</p>
-      <p>The Devil Wears Prada 2 follows a laid-off journalist, Andy Sachs (Anne Hathaway). To save a scandal-plagued Runway magazine, she is forced to reunite with her former boss, Miranda Priestly (Meryl Streep), and navigate cutthroat corporate threats from a powerful Dior executive, Emily (Emily Blunt).</p>
+      <p>The narrative follows the transformation of a demon child into Ravana, the most powerful indestructible king, whose primary goal is to destroy Vishnu The Hindu.</p>
     </div>
 
   </div>
@@ -912,7 +911,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>R.I.P</h2>
       <p className='genre'>Action Movie</p>
-      <p>The Death of Robin Hood, an aging, remorseful Robin (Hugh Jackman) hides in self-imposed exile after a lifetime of violent banditry. Grappling with his bloody past and fatal injuries, he finds sanctuary at an island priory, where he seeks redemption and ultimately asks Sister Brigid (Jodie Comer) to assist him in his death through bloodletting.</p>
+      <p>A group of Miami cops discovers a stash of millions in cash, leading to distrust as outsiders learn about the huge seizure, making them question who to rely on. A Miami narcotics unit fractures from the inside after discovering a cartel stash house loaded with cash, six weeks after their captain's unsolved murder.</p>
     </div>
 
   </div>
@@ -930,7 +929,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Scream 7</h2>
       <p className='genre'>Comedy Movie</p>
-      <p>Scary Movie 6 (also titled Scary Movie), the original crew reunites 26 years after their first run-in with Ghostface. When a new masked killer attacks Tuesday Campbell, her sister Sara and boyfriend Jack seek help from her mother, Cindy (Anna Faris). Cindy—now a recluse with booby-trapped survival gear—must team up with Brenda, Shorty, and Ray to stop the bloodshed.</p>
+      <p>The official synopsis for Scream 7 (released on February 27, 2026) follows Sidney Prescott as she is once again hunted by Ghostface. After building a quiet life in Pine Grove, Indiana, her darkest fears are realized when her teenage daughter becomes the killer's next target. To protect her family, Sidney must confront the horrors of her past to end the bloodshed permanently.</p>
     </div>
 
   </div>
@@ -948,7 +947,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Start  wars Madalorian Grogu</h2>
       <p className='genre'>Scifi  Movie</p>
-      <p>fifteen years after being exiled to Earth, Prince Adam (Nicholas Galitzine) reclaims the Sword of Power. He returns to his war-torn home world of Eternia to unite fractured factions and defeat the ruthless Skeletor (Jared Leto) before Castle Grayskull falls into eternal darkness.</p>
+      <p>The Mandalorian and Grogu, the fallen Empire leaves warlords scattered across the galaxy. The fledgling New Republic enlists legendary bounty hunter Din Djarin and his apprentice Grogu to protect everything the Rebellion fought for, embarking on thrilling new missions.</p>
     </div>
 
   </div>
