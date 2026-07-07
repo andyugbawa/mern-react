@@ -2,11 +2,18 @@ import React from 'react'
 import { useState } from 'react'
 import "./style.css"
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 
 function Home() {
+
+    const navigate = useNavigate();
  const [flippedCards, setFlippedCards] = useState({});
+
+  const handleLogout = () => {
+  navigate("/login");
+};
 
     const handleFlip = (card) => {
   setFlippedCards((prev) => ({
@@ -19,7 +26,7 @@ function Home() {
     <div>
 
       <div className='log-out'>
-        <button>Log out</button>
+        <button onClick={handleLogout}>Log out</button>
       </div>
 
     <h1>Welcome Home</h1>
