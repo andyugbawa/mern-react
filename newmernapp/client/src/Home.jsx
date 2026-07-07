@@ -877,7 +877,7 @@ function Home() {
 
         </div>
         </div>
-
+    </div>
           
          
       <div className="content2">
@@ -956,7 +956,7 @@ function Home() {
         </div>  
         
       
-        </div>
+        
       
 
       
