@@ -753,7 +753,7 @@ function Home() {
     </div>
 
   </div>
-</div>
+        </div>
  
         <div className={`flip-card ${flippedCards.card2 ? "flipped" :""}`}
          onClick={()=>handleFlip("card2")}
@@ -814,7 +814,7 @@ function Home() {
   </div>
 
         </div> 
-
+         </div>
          </div>
 
 
@@ -898,6 +898,7 @@ function Home() {
   </div>
 
         </div>
+
         <div className={`flip-card ${flippedCards.card9 ? "flipped" :""}`}
          onClick={()=>handleFlip("card9")}
         >
@@ -934,6 +935,8 @@ function Home() {
   </div>
 
         </div>
+
+
         <div className={`flip-card ${flippedCards.card11 ? "flipped" :""}`}
          onClick={()=>handleFlip("card11")}
         >
