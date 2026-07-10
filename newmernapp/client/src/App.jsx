@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom"
 import SignUp from "./SignUp"
 import Login from "./Login"
 import Home from "./Home"
+import Comments from './Comments'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/" element={<SignUp />} />
       <Route path="/login" element={<Login />} />
       <Route path="/home" element={<Home />} />
+      <Route path="/comments" element={<Comments />} />
     </Routes> }
 
     {/* <h1>Hello</h1> */}

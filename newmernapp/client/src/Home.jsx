@@ -15,6 +15,10 @@ function Home() {
   navigate("/login");
 };
 
+  const handleComments = () => {
+  navigate("/comments");
+};
+
     const handleFlip = (card) => {
   setFlippedCards((prev) => ({
     ...prev,
@@ -26,7 +30,7 @@ function Home() {
     <div>
 
       <div className='log-out'>
-        <button>Comments/Request</button>
+        <button onClick={handleComments}>Comments/Request</button>
         <button onClick={handleLogout}>Log out</button>
       </div>
 
