@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 function Comments() {
 
+     const navigate = useNavigate();
   
   const handleHome = () => {
   navigate("/home");
