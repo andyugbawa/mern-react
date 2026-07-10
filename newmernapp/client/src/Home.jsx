@@ -26,7 +26,7 @@ function Home() {
     <div>
 
       <div className='log-out'>
-        <button>Comments</button>
+        <button>Comments/Request</button>
         <button onClick={handleLogout}>Log out</button>
       </div>
 
