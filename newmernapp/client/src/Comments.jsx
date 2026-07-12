@@ -7,39 +7,40 @@ export default function Comments() {
   const [email, setEmail] = useState("");
   const [comments, setComments] = useState("");
 
-  // Load saved data from localStorage
-  const [posts, setPosts] = useState(() => {
-    const savedPosts = localStorage.getItem("posts");
-    return savedPosts ? JSON.parse(savedPosts) : [];
-  });
+  
+  // const [posts, setPosts] = useState(() => {
+  //   const savedPosts = localStorage.getItem("posts");
+  //   return savedPosts ? JSON.parse(savedPosts) : [];
+  // });
 
-  // Save to localStorage whenever posts change
-  useEffect(() => {
-    localStorage.setItem("posts", JSON.stringify(posts));
-  }, [posts]);
+  
+  // useEffect(() => {
+  //   localStorage.setItem("posts", JSON.stringify(posts));
+  // }, [posts]);
 
-  function handleSubmit(e) {
-    e.preventDefault();
 
-    if (!name || !email || !comments) {
-      alert("Please fill in all fields.");
-      return;
-    }
+  // function handleSubmit(e) {
+  //   e.preventDefault();
 
-    const newPost = {
-      id: Date.now(),
-      name,
-      email,
-      comments,
-    };
+  //   if (!name || !email || !comments) {
+  //     alert("Please fill in all fields.");
+  //     return;
+  //   }
 
-    setPosts([...posts, newPost]);
+  //   const newPost = {
+  //     id: Date.now(),
+  //     name,
+  //     email,
+  //     comments,
+  //   };
 
-    // Clear the form
-    setName("");
-    setEmail("");
-    setComments("");
-  }
+  //   setPosts([...posts, newPost]);
+
+  //   // Clear the form
+  //   setName("");
+  //   setEmail("");
+  //   setComments("");
+  // }
 
   return (
     <div className="parent">
@@ -89,7 +90,7 @@ export default function Comments() {
         />
 
         <button type="submit" className="post">
-           {/* <FaPaperPlane /> */}Post
+           Post
         </button>
       </form>
 
