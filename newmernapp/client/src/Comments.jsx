@@ -34,12 +34,11 @@ export default function Comments() {
        comments,
      };
 
-  //   setPosts([...posts, newPost]);
+     setPosts([...posts, newPost]);
 
-  //   // Clear the form
-  //   setName("");
-  //   setEmail("");
-  //   setComments("");
+    setName("");
+     setEmail("");
+   setComments("");
    }
 
   return (
