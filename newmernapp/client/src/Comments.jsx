@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
-import { FaPaperPlane } from "react-icons/fa";
+// import { FaPaperPlane } from "react-icons/fa";
 
 export default function Comments() {
   const [name, setName] = useState("");
@@ -89,7 +89,7 @@ export default function Comments() {
         />
 
         <button type="submit" className="post">
-           <FaPaperPlane />
+           {/* <FaPaperPlane /> */}Post
         </button>
       </form>
 
