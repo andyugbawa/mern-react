@@ -8,15 +8,15 @@ export default function Comments() {
   const [comments, setComments] = useState("");
 
   
-  // const [posts, setPosts] = useState(() => {
-  //   const savedPosts = localStorage.getItem("posts");
-  //   return savedPosts ? JSON.parse(savedPosts) : [];
-  // });
+   const [posts, setPosts] = useState(() => {
+    const savedPosts = localStorage.getItem("posts");
+      return savedPosts ? JSON.parse(savedPosts) : [];
+  });
 
   
-  // useEffect(() => {
-  //   localStorage.setItem("posts", JSON.stringify(posts));
-  // }, [posts]);
+   useEffect(() => {
+    localStorage.setItem("posts", JSON.stringify(posts));
+   }, [posts]);
 
 
    function handleSubmit(e) {
