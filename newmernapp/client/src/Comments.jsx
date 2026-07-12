@@ -14,9 +14,9 @@ export default function Comments() {
   });
 
   
-   useEffect(() => {
-    localStorage.setItem("posts", JSON.stringify(posts));
-   }, [posts]);
+  // useEffect(() => {
+  //   localStorage.setItem("posts", JSON.stringify(posts));
+  // }, [posts]);
 
 
    function handleSubmit(e) {
