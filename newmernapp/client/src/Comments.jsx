@@ -1,12 +1,12 @@
-import React from 'react'
+// import React from 'react'
 
-export default function Comments() {
-  return (
-    <div>
-      <h2>Comments</h2>
-    </div>
-  )
-}
+// export default function Comments() {
+//   return (
+//     <div>
+//       <h2>Comments</h2>
+//     </div>
+//   )
+// }
 
 
 
