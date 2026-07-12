@@ -237,6 +237,34 @@ h1{
 }
 
 
+h1{
+    font-size: 50px;
+    color:red;
+}
+.parent{
+    margin: 10px  30px;
+}
+
+.post{
+    padding: 5px 20px;
+    border: 1px solid red;
+    background: blue;
+
+}
+hr{
+    margin: 15px 0;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
 
 
 @keyframes slideLeft {
