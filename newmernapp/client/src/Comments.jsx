@@ -19,20 +19,20 @@ export default function Comments() {
   // }, [posts]);
 
 
-  // function handleSubmit(e) {
-  //   e.preventDefault();
+   function handleSubmit(e) {
+     e.preventDefault();
 
-  //   if (!name || !email || !comments) {
-  //     alert("Please fill in all fields.");
-  //     return;
-  //   }
+     if (!name || !email || !comments) {
+       alert("Please fill in all fields.");
+      return;
+       }
 
-  //   const newPost = {
-  //     id: Date.now(),
-  //     name,
-  //     email,
-  //     comments,
-  //   };
+     const newPost = {
+       id: Date.now(),
+       name,
+      email,
+       comments,
+     };
 
   //   setPosts([...posts, newPost]);
 
@@ -40,7 +40,7 @@ export default function Comments() {
   //   setName("");
   //   setEmail("");
   //   setComments("");
-  // }
+   }
 
   return (
     <div className="parent">
@@ -54,11 +54,12 @@ export default function Comments() {
           placeholder=""
           value={name}
           onChange={(e) => setName(e.target.value)}
-          style={{
-            border: "1px solid black",
-            display: "block",
-            marginBottom: "10px",
-          }}
+
+          // style={{
+          //   border: "1px solid black",
+          //   display: "block",
+          //   marginBottom: "10px",
+          // }}
         />
          
          <h2>Email</h2>
