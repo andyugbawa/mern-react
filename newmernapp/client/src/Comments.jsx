@@ -1,12 +1,19 @@
-// import React from 'react'
+import React from 'react'
 
-// export default function Comments() {
-//   return (
-//     <div>
-//       <h2>Comments</h2>
-//     </div>
-//   )
-// }
+ function Comments() {
+  return (
+    <div>
+      <h2>Comments</h2>
+       
+       <input
+       placeholder='Enter name'
+       />
+
+    </div>
+  )
+}
+
+export default Comments
 
 
 
