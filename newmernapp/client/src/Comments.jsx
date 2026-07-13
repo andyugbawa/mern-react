@@ -4,9 +4,20 @@ import React from 'react'
   return (
     <div>
       <h2>Comments</h2>
-       
+
+      
+       <h2>Name</h2>
        <input
        placeholder='Enter name'
+       />
+
+       <h2>Email</h2>
+       <input
+       placeholder='Enter Email'
+       />
+
+       <textarea
+       placeholder='enter Comments'
        />
 
     </div>
