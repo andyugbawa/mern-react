@@ -15,8 +15,8 @@ import React from 'react'
        <input
        placeholder='Enter Email'
        />
-       <h2></h2>
-       
+       <h2>Comments</h2>
+
        <textarea
        placeholder='enter Comments'
        />
