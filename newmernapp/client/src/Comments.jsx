@@ -15,14 +15,11 @@ import React from 'react'
        <input
        placeholder='Enter Email'
        />
+       <h2></h2>
        
-       <div>
-
        <textarea
        placeholder='enter Comments'
        />
-
-       </div>
 
     </div>
   )
