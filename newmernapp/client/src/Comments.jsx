@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
+import "./style.css"
+
+
+
 
  function Comments() {
+
+    const [name,setName]=useState("")
+    const [email,setEmail]=useState("")
+    const [comments,setComments]=useState("")
+
+
   return (
     <div>
       <h2>Comments</h2>
