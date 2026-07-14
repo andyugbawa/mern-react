@@ -15,7 +15,9 @@ import "./style.css"
     <div>
       <h2>Comments</h2>
 
-      
+      <form>
+       
+       
        <h2>Name</h2>
        <input
        placeholder='Enter name'
@@ -31,6 +33,9 @@ import "./style.css"
        placeholder='enter Comments'
        />
 
+
+      </form>
+      
     </div>
   )
 }
