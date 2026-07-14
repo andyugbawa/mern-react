@@ -10,11 +10,37 @@ import "./style.css"
     const [email,setEmail]=useState("")
     const [comments,setComments]=useState("")
 
+    const [posts, setPosts] = useState(() => {
+  const savedPosts = localStorage.getItem("posts");
+  return savedPosts ? JSON.parse(savedPosts) : [];
+  });
 
+  useEffect(() => {
+  localStorage.setItem("posts", JSON.stringify(posts));
+}, [posts]);
 
-    function handleSubmit(e){
+   function handleSubmit(e) {
+  e.preventDefault();
 
-    }
+  if (!name || !email || !comments) {
+    alert("Please fill in all fields");
+    return;
+  }
+
+  const newPost = {
+    id: Date.now(),
+    name,
+    email,
+    comments,
+  };
+
+  setPosts([newPost, ...posts]);
+
+  // Clear form
+  setName("");
+  setEmail("");
+  setComments("");
+}
 
 
   return (
@@ -49,6 +75,24 @@ import "./style.css"
       </form>
 
       <hr />
+
+      <div className="saved-posts">
+  <h2>Saved Comments</h2>
+
+  {posts.length === 0 ? (
+    <p>No comments yet.</p>
+  ) : (
+    posts.map((post) => (
+      <div className="comment-card" key={post.id}>
+        <h3>{post.name}</h3>
+        <p>
+          <strong>Email:</strong> {post.email}
+        </p>
+        <p>{post.comments}</p>
+      </div>
+    ))
+  )}
+</div>
       
     </div>
   )

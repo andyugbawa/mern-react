@@ -333,3 +333,29 @@ margin-bottom: 10px;
 height: 150px;
 width: 300px;  
 }
+
+.saved-posts {
+  margin-top: 30px;
+}
+
+.comment-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.comment-card h3 {
+  margin: 0 0 10px;
+  color: blue;
+}
+
+.comment-card p {
+  margin: 5px 0;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
