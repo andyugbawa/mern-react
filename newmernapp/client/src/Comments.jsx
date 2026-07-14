@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./style.css"
+import "./style.css";
+ import { FaPaperPlane } from "react-icons/fa";
 
 
 
@@ -66,12 +67,14 @@ import "./style.css"
        <h2>Comments</h2>
 
        <textarea
-       placeholder='enter Comments'
+       placeholder='Enter Comments'
        value={comments}
        onChange={(e)=>setComments(e.target.value)}
        />
 
-       <button type="submit">Post</button>
+       <button type="submit"> 
+        <FaPaperPlane />
+       </button>
       </form>
 
       <hr />
