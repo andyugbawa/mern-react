@@ -44,7 +44,7 @@ import "./style.css"
 
 
   return (
-    <div>
+    <div className="parent-comments">
       <h2>Comments</h2>
 
       <form onSubmit={handleSubmit}> 
