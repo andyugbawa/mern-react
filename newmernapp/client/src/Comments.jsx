@@ -47,6 +47,8 @@ import "./style.css"
 
        <button type="submit">Post</button>
       </form>
+
+      <hr />
       
     </div>
   )
