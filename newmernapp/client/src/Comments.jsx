@@ -11,29 +11,41 @@ import "./style.css"
     const [comments,setComments]=useState("")
 
 
+
+    function handleSubmit(e){
+
+    }
+
+
   return (
     <div>
       <h2>Comments</h2>
 
-      <form>
+      <form onSubmit={handleSubmit}> 
        
        
        <h2>Name</h2>
        <input
        placeholder='Enter name'
+       value={name}
+       onChange={(e)=>setName(e.target.value)}
        />
 
        <h2>Email</h2>
        <input
        placeholder='Enter Email'
+       value={email}
+       onChange={(e)=> setEmail(e.target.value)}
        />
        <h2>Comments</h2>
 
        <textarea
        placeholder='enter Comments'
+       value={comments}
+       onChange={(e)=>setComments(e.target.value)}
        />
 
-
+       <button type="submit">Post</button>
       </form>
       
     </div>
