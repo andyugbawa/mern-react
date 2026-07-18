@@ -24,7 +24,7 @@ import "./style.css";
 };
 
    const handleLogout = () => {
-  navigate("login");
+  navigate("/login");
 };
 
 
