@@ -385,3 +385,26 @@ button {
 
 
 }
+
+
+@media (max-width:768px) {
+   .card1,
+   .card2,.card3,
+   .card4,.card5,
+   .card6,.card7,
+   .card8,.card9,
+   .card10,.card11{
+    width:200px;
+    height: 230px;
+   } 
+
+   img{
+     width:200px;
+    height: 230px;
+   }
+   p{
+    font-size: 12px;
+   }
+
+
+}
