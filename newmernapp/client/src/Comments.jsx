@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
  import { FaPaperPlane } from "react-icons/fa";
+ import { Link } from "react-router-dom";
+ import { useNavigate } from "react-router-dom";
 
 
 
 
  function Comments() {
+  const navigate = useNavigate();
 
     const [name,setName]=useState("")
     const [email,setEmail]=useState("")
@@ -15,6 +18,15 @@ import "./style.css";
   const savedPosts = localStorage.getItem("posts");
   return savedPosts ? JSON.parse(savedPosts) : [];
   });
+
+   const handleHome = () => {
+  navigate("/home");
+};
+
+   const handleLogout = () => {
+  navigate("/logout");
+};
+
 
   useEffect(() => {
   localStorage.setItem("posts", JSON.stringify(posts));
@@ -47,6 +59,12 @@ import "./style.css";
   return (
     <div className="parent-comments">
       <h2>Comments</h2>
+
+
+       <div className='log-out'>
+        <button onClick={handleHome}>HOME-PAGE</button>
+        <button onClick={handleLogout}>Log out</button>
+      </div>
 
       <form onSubmit={handleSubmit}> 
        
