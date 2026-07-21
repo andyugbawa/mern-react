@@ -365,6 +365,10 @@ button {
 
 
 @media (max-width:480px) {
+
+    body{
+        background-color:red ;
+    }
    .card1,
    .card2,.card3,
    .card4,.card5,
@@ -388,6 +392,10 @@ button {
 
 
 @media (max-width:768px) {
+
+    body{
+        background-color:green ;
+    }
    .card1,
    .card2,.card3,
    .card4,.card5,
