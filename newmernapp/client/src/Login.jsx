@@ -5,18 +5,43 @@ import { useNavigate } from "react-router-dom"
 function Login() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
+  const [error, setError] = useState("")
   const navigate = useNavigate()
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
 
-    axios.post(`${import.meta.env.VITE_API_URL}/login`, { email, password })
-      .then(res => {
-        if (res.data === "Success") {
-          navigate("/home")
-        }
-      })
-  }
+  const handleSubmit = (e) => {
+  e.preventDefault()
+
+  setError("") // Clear previous error
+
+  axios.post(`${import.meta.env.VITE_API_URL}/login`, {
+    email,
+    password
+  })
+    .then(res => {
+      if (res.data === "Success") {
+        navigate("/home")
+      }
+    })
+    .catch(err => {
+      if (err.response) {
+        setError(err.response.data)
+      } else {
+        setError("Unable to connect to the server.")
+      }
+    })
+}
+
+  // const handleSubmit = (e) => {
+  //   e.preventDefault()
+
+  //   axios.post(`${import.meta.env.VITE_API_URL}/login`, { email, password })
+  //     .then(res => {
+  //       if (res.data === "Success") {
+  //         navigate("/home")
+  //       }
+  //     })
+  // }
 
   return (
     <form onSubmit={handleSubmit}>
@@ -47,6 +72,12 @@ function Login() {
               autoComplete='new-password'
             />
           </div>
+
+          {error && (
+        <div className="alert alert-danger">
+          {error}
+       </div>
+        )}
           
           <button className='btn btn-success w-100'>Login</button>
 
