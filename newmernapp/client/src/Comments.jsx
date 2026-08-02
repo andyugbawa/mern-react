@@ -62,8 +62,8 @@ import "./style.css";
 
 
        <div className='log-out'>
-        <button onClick={handleHome}>HOME-PAGE</button>
-        <button onClick={handleLogout}>Log out</button>
+        <button className="returnhome" onClick={handleHome}>HOME-PAGE</button>
+        <button className="logout" onClick={handleLogout}>Log out</button>
       </div>
 
       <form onSubmit={handleSubmit}> 
