@@ -265,7 +265,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>YOUNG WASHINGTON</h2>
       <p className='genre'>Action Movie</p>
-      <p>Young Washington is a 2026 historical war drama directed by Jon Erwin. It follows the 22-year-old George Washington (William Franklyn-Miller) as he rises above a modest station to serve in the French and Indian War. Driven by ambition, his early military missteps during the Jumonville Glen ambush inadvertently spark global conflict before he grows into a capable, respected leader at the Battle of the Monongahela.</p>
+      <p>Young Washington is a 2026 historical war drama directed by Jon Erwin. It follows the 22-year-old George Washington (William Franklyn-Miller) as he rises above a modest station to serve in the French and Indian War.</p>
       
     </div>
 
@@ -566,7 +566,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Apex</h2>
       <p className='genre'>Action Movie</p>
-      <p>The film follows Sasha (Charlize Theron), a grieving mountain climber who retreats to the rugged Australian wilderness after being forced to cut her husband's (Eric Bana) rope during a deadly storm on Norway's Troll Wall. Seeking isolation, she is approached by Ben (Taron Egerton), a seemingly helpful local who directs her to a remote campsite.Sasha soon realizes she is being stalked and hunted by Ben, who operates as a ritualistic cannibal that turns his victims into beef jerky. After being captured and chained up with the remains of other missing people, Sasha breaks free, battles the killer, and ends up severely wounding him. Trapped together in the unforgiving bush, they are ultimately forced to work as an uneasy, shackled tandem team to scale a steep canyon wall and survive.For a breakdown and analysis of how Charlize Theron fights her way to freedom in the climax of the film:8:42Apex (2026) | Full RecapRecap RoomYouTube · 24 Épr 20263 sites'Apex' Review: Charlize Theron stalked by Taron Egerton Action Flick23 Épr 2026 — Watch on Deadline * Title: Apex. * Distributor: Netflix. * Release date: April 24, 2026. * Director: Baltasar Kormákur. * Screenwr...DeadlineApex (2026) - IMDbA mountain climber haunted by a fatal decision in Norway retreats to the Australian wilderness for isolation. Her journey turns in...IMDbApex (2026) - Plot - IMDbSummaries. A mountain climber haunted by a fatal decision in Norway retreats to the Australian wilderness for isolation.</p>
+      <p>The film follows Sasha (Charlize Theron), a grieving mountain climber who retreats to the rugged Australian wilderness after being forced to cut her husband's (Eric Bana) rope during a deadly storm on Norway's Troll Wall. Seeking isolation, she is approached by Ben (Taron Egerton), a seemingly helpful local who directs her to a remote campsite.Sasha soon realizes she is being stalked and hunted by Ben, who operates as a ritualistic cannibal that turns his victims into beef jerky. After being captured and chained up with the remains of other missing people, Sasha breaks free, battles the killer, and ends up severely wounding him.</p>
     </div>
 
   </div>
