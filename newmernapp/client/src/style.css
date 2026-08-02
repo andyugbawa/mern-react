@@ -401,7 +401,7 @@ button {
 @media (max-width:768px) {
 
     body{
-        background-color:green ;
+        /* background-color:green ; */
     }
    .card1,
    .card2,.card3,
