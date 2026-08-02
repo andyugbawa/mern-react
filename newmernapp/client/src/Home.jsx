@@ -566,7 +566,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Apex</h2>
       <p className='genre'>Action Movie</p>
-      <p>The film follows Sasha (Charlize Theron), a grieving mountain climber who retreats to the rugged Australian wilderness after being forced to cut her husband's (Eric Bana) rope during a deadly storm on Norway's Troll Wall. Seeking isolation, she is approached by Ben (Taron Egerton), a seemingly helpful local who directs her to a remote campsite.Sasha soon realizes she is being stalked and hunted by Ben, who operates as a ritualistic cannibal that turns his victims into beef jerky. After being captured and chained up with the remains of other missing people, Sasha breaks free, battles the killer, and ends up severely wounding him.</p>
+      <p>The film follows Sasha (Charlize Theron), a grieving mountain climber who retreats to the rugged Australian wilderness after being forced to cut her husband's (Eric Bana) rope during a deadly storm on Norway's Troll Wall.</p>
     </div>
 
   </div>
