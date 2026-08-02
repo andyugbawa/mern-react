@@ -368,7 +368,7 @@ button {
   .request{
     border-radius: 20px;
     background-color: green;
-    border: 1px solid black;
+    border: 3px solid black;
     color: #f9f9f9;
     font-size: 18px;
 
@@ -377,7 +377,7 @@ button {
   .returnhome{
     border-radius: 20px;
     background-color: green;
-    border: 1px solid black;
+    border: 3px solid black;
     color: #f9f9f9;
     font-size: 18px;
   }
@@ -385,7 +385,7 @@ button {
 .logout{
     border-radius: 20px;
     background-color: red;
-    border: 1px solid black;
+    border: 3px solid black;
     color: #f9f9f9;
     font-size: 18px;
 }
