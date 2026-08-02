@@ -30,8 +30,8 @@ function Home() {
     <div>
 
       <div className='log-out'>
-        <button onClick={handleComments}>Comments/Request</button>
-        <button onClick={handleLogout}>Log out</button>
+        <button className='request' onClick={handleComments}>Comments/Request</button>
+        <button className='logout' onClick={handleLogout}>Log out</button>
       </div>
 
     <h1>Welcome Home</h1>

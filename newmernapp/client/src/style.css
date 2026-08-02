@@ -364,7 +364,13 @@ button {
 }
 
 
-@media (max-width:480px) {
+  .request{
+    border-radius: 20px;
+  }
+  .logout{}
+
+
+@media (max-width:768px) {
 
     body{
         background-color:red ;
