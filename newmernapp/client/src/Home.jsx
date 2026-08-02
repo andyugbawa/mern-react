@@ -729,7 +729,7 @@ function Home() {
     <div className="flip-card-back">
       <h2 className='title'>Personhood</h2>
       <p className='genre'>Action Movie</p>
-      <p> It follows Waylen, an isolated and physically challenged man on Spain's Costa del Sol, who purchases a stunning AI companion robot named Gala to escape his loneliness. His struggle with personal insecurities and the sudden arrival of his charming, suspicious brother threaten to unravel his one chance at love. The film dives deeply into themes of free will, programming, and what happens when an AI says "I love you".</p>
+      <p> It follows Waylen, an isolated and physically challenged man on Spain's Costa del Sol, who purchases a stunning AI companion robot named Gala to escape his loneliness.</p>
     </div>
 
   </div>
