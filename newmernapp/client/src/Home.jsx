@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import "./style.css"
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
@@ -8,7 +8,119 @@ import { useNavigate } from "react-router-dom";
 
 function Home() {
 
-    const navigate = useNavigate();
+  const images = [
+    "/hungry1.jpeg",
+    "/hawk.jpeg",
+    "/ballistic.jpeg",
+    "/matser.jpeg",
+    "/horror.jpeg",
+    "/drama.jpeg",
+    "/comedy.jpeg",
+    "/cartoon.jpeg",
+    "/action.jpeg",
+  ];
+
+     const slides = [
+    images[images.length - 1],
+    ...images,
+    images[0],
+  ];
+
+  
+  const [curr, setCurr] = useState(1);
+
+  const [isTransitioning, setIsTransitioning] = useState(true);
+
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+
+  // Next slide
+  const next = () => {
+    setIsTransitioning(true);
+    setCurr((curr) => curr + 1);
+  };
+
+  // Previous slide
+  const prev = () => {
+    setIsTransitioning(true);
+    setCurr((curr) => curr - 1);
+  };
+
+  // Automatic sliding
+  useEffect(() => {
+    const interval = setInterval(() => {
+      next();
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  // Handle seamless looping
+  const handleTransitionEnd = () => {
+    // We reached the cloned first image
+    if (curr === slides.length - 1) {
+      setIsTransitioning(false);
+      setCurr(1);
+    }
+
+    // We reached the cloned last image
+    if (curr === 0) {
+      setIsTransitioning(false);
+      setCurr(images.length);
+    }
+  };
+
+  // Mobile touch start
+  const handleTouchStart = (e) => {
+    setTouchStart(e.targetTouches[0].clientX);
+    setTouchEnd(null);
+  };
+
+  // Mobile touch end
+  const handleTouchEnd = (e) => {
+    setTouchEnd(e.changedTouches[0].clientX);
+  };
+
+  // Handle swipe
+  useEffect(() => {
+    if (touchStart === null || touchEnd === null) {
+      return;
+    }
+
+    const distance = touchStart - touchEnd;
+
+    // Swipe left
+    if (distance > 50) {
+      next();
+    }
+
+    // Swipe right
+    if (distance < -50) {
+      prev();
+    }
+
+    setTouchStart(null);
+    setTouchEnd(null);
+  }, [touchEnd]);
+
+  // Dot click
+  const goToSlide = (index) => {
+    setIsTransitioning(true);
+    setCurr(index + 1);
+  };
+
+  // Convert cloned-slide index to real image index
+  const activeDot = curr === 0
+    ? images.length - 1
+    : curr === slides.length - 1
+    ? 0
+    : curr - 1;
+
+
+
+
+
+ const navigate = useNavigate();
  const [flippedCards, setFlippedCards] = useState({});
 
   const handleLogout = () => {
@@ -36,11 +148,62 @@ function Home() {
 
     <h1>Welcome Home</h1>
 
-    <div>
-            {/* <img src="/action.jpeg" alt="Movie" /> */}
-    </div>
+   
        
        <div>
+
+         <div className="core">
+    <div className="carousel-wrapper">
+
+      <div
+        className="container"
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+      >
+        <div
+          className="content1"
+          onTransitionEnd={handleTransitionEnd}
+          style={{
+            transform: `translateX(-${curr * 100}%)`,
+            transition: isTransitioning
+              ? "transform 0.5s ease-in-out"
+              : "none",
+          }}
+        >
+          {slides.map((image, index) => (
+            <img
+              key={index}
+              className="img1"
+              src={image}
+              alt={`Slide ${index + 1}`}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Left and Right buttons */}
+      <div className="btn">
+        <button onClick={prev}>Left</button>
+        <button onClick={next}>Right</button>
+      </div>
+
+      {/* Dot indicators */}
+      <div className="dots">
+        {images.map((_, index) => (
+          <button
+            key={index}
+            className={
+              activeDot === index
+                ? "dot active"
+                : "dot"
+            }
+            onClick={() => goToSlide(index)}
+          ></button>
+        ))}
+      </div>
+
+    </div>
+    </div>
         
        </div>
 
