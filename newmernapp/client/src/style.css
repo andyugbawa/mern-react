@@ -390,7 +390,7 @@ button {
     font-size: 18px;
 }
 
-
+/* 
  .core{
     display: flex;
     justify-content: center;
@@ -429,7 +429,7 @@ button {
 }
 
 /* Left and Right buttons */
-
+/* 
 .btn {
   position: absolute;
   top: 50%;
@@ -447,7 +447,7 @@ button {
   cursor: pointer;
 }
 
-/* Dots */
+
 
 .dots {
   display: flex;
@@ -468,7 +468,7 @@ button {
 
 .dot.active {
   background-color: red;
-}
+}  */
 
 @media (max-width:768px) {
 
