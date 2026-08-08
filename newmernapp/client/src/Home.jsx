@@ -156,12 +156,12 @@ function Home() {
     <div className="carousel-wrapper">
 
       <div
-        className="container"
+        className="container-auto"
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
       >
         <div
-          className="content1"
+          className="content-auto"
           onTransitionEnd={handleTransitionEnd}
           style={{
             transform: `translateX(-${curr * 100}%)`,
