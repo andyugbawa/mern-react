@@ -410,7 +410,7 @@ button {
   width: 92vw;
   height: 500px;
   overflow: hidden;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   touch-action: pan-y;
 }
 
