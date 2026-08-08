@@ -9,10 +9,10 @@ import { useNavigate } from "react-router-dom";
 function Home() {
 
   const images = [
-    "/hungry1.jpeg",
-    "/hawk.jpeg",
-    "/ballistic.jpeg",
-    "/masters.jpeg",
+    "/camera.jpeg",
+    "/board.jpeg",
+    "/seat.jpeg",
+    "/popcorn.jpeg",
     "/horror.jpeg",
     "/drama.jpeg",
     "/comedy.jpeg",
