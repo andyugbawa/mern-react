@@ -429,7 +429,7 @@ button {
 }
 
 
-/* 
+
 .btn-auto {
   position: absolute;
   top: 50%;
@@ -468,7 +468,7 @@ button {
 
 .dot.active {
   background-color: red;
-}  */
+}  
 
 @media (max-width:768px) {
 
