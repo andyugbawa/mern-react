@@ -12,7 +12,7 @@ function Home() {
     "/hungry1.jpeg",
     "/hawk.jpeg",
     "/ballistic.jpeg",
-    "/matser.jpeg",
+    "/masters.jpeg",
     "/horror.jpeg",
     "/drama.jpeg",
     "/comedy.jpeg",
