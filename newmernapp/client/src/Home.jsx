@@ -183,8 +183,8 @@ function Home() {
 
     
       <div className="btn-auto">
-        <button className='btn-slide' onClick={prev}>Left</button>
-        <button className='btn-slide' onClick={next}>Right</button>
+        {/* <button className='btn-slide' onClick={prev}>Left</button> */}
+        {/* <button className='btn-slide' onClick={next}>Right</button> */}
       </div>
 
       
