@@ -173,7 +173,7 @@ function Home() {
           {slides.map((image, index) => (
             <img
               key={index}
-              className="img1"
+              className="img1-auto"
               src={image}
               alt={`Slide ${index + 1}`}
             />
@@ -181,13 +181,13 @@ function Home() {
         </div>
       </div>
 
-      {/* Left and Right buttons */}
-      <div className="btn">
-        <button onClick={prev}>Left</button>
-        <button onClick={next}>Right</button>
+    
+      <div className="btn-auto">
+        <button className='btn-slide' onClick={prev}>Left</button>
+        <button className='btn-slide' onClick={next}>Right</button>
       </div>
 
-      {/* Dot indicators */}
+      
       <div className="dots">
         {images.map((_, index) => (
           <button

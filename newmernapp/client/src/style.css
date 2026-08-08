@@ -390,7 +390,7 @@ button {
     font-size: 18px;
 }
 
-/* 
+
  .core{
     display: flex;
     justify-content: center;
@@ -418,7 +418,7 @@ button {
   display: flex;
 }
 
-.img1 {
+.img1-auto {
   width: 92vw;
   height: 500px;
   flex-shrink: 0;
@@ -428,9 +428,9 @@ button {
   -webkit-user-drag: none;
 }
 
-/* Left and Right buttons */
+
 /* 
-.btn {
+.btn-auto {
   position: absolute;
   top: 50%;
   width: 100%;
@@ -439,7 +439,7 @@ button {
   transform: translateY(-50%);
 }
 
-.btn button {
+.btn-auto .btn-slide {
   padding: 10px 20px;
   background-color: red;
   color: white;
